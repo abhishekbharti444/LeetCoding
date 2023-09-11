@@ -1,5 +1,9 @@
 class Solution {
 public:
+    /*
+        Create a hashmap for size versus all the elements for that size
+        Check who all should be put into that size vector.
+    */
     vector<vector<int>> groupThePeople(vector<int>& groupSizes) {
         int n = groupSizes.size();
         vector<vector<int>> res;
