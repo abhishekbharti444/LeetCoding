@@ -1,5 +1,23 @@
 class Solution {
 public:
+    /*
+        Solved it myself after a long time.
+        
+Approach:
+    1. Have the furthest indexes of each of chars saved in mp.
+    2. Keep a monotonic stack which stores the string in lexicographical manner.
+    3. Keep a set(st) also to quickly look up all of the chars present in mono_stack.
+    4. In the loop 
+        a. First check if the current char is already there in the 
+            mono_stack(By checking it's availability in st), if true, skip to next char.
+        b. Then see if curr char is smaller than top of mono_stack 
+            and the top also accurs later in the string, 
+            if so, pop those elements(remove from the st too).
+        c. After this, add that curr char in mono_stack and st to form 
+            lexicographically smallest string.
+    5. At last capture mono_st in res, reverse it and return the res;
+    */
+    
     string removeDuplicateLetters(string s) {
         int n = s.size();
         stack<char> mono_st;
