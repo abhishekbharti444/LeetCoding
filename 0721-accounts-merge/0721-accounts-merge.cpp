@@ -34,23 +34,18 @@ public:
         
         map<int, vector<int>> map1;
         for (int i = 0; i < n; ++i) {
-            cout<<parent[i]<<" ";
             map1[getParent(parent[i])].push_back(i);
             
         }
-        cout<<endl;
         vector<vector<string>> res;
         int ind = 0;
         for (auto& el : map1) {
-            cout<<el.first<<" => ";
             int index = el.first;
             unordered_set<string> s;
             for (int i = 0; i < el.second.size(); ++i) {
-                cout<<el.second[i]<<" ";
                 for (int j = 1; j < accounts[el.second[i]].size(); ++j)
                     s.insert(accounts[el.second[i]][j]);
             }
-            cout<<endl;
             vector<string> ans;
             ans.push_back(accounts[el.first][0]);
             for (auto& a : s) ans.push_back(a);
