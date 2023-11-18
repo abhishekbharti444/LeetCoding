@@ -23,12 +23,8 @@ public:
         unordered_map<string, int> mp;
         for (int i = 0; i < n; ++i) {
             for (int j = 1; j < accounts[i].size(); ++j) {
-                if (mp.find(accounts[i][j]) == mp.end()) {
-                    mp[accounts[i][j]] = i;
-                }
-                else {
-                    unionMethod(i, mp[accounts[i][j]]);
-                }
+                if (mp.find(accounts[i][j]) == mp.end()) mp[accounts[i][j]] = i;
+                else unionMethod(i, mp[accounts[i][j]]);
             }
         }
         
