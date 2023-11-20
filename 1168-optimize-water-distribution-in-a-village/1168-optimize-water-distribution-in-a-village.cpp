@@ -1,5 +1,18 @@
 class Solution {
 public:
+    /*
+        Approach:
+            1. For the weight of digging the wells, consider a virtual node(in this case 0 is taken) and 
+        connect each of the node(house) with this vNode.
+            2. The weight of edges to connect pipes is given in the input. 
+            3. Now the question is reduced to finding the MST of this graph.
+            4. Kruskal algo:(Union Find implementation)
+                a. Sort all the edges given by weight.
+                b. Include an edge and check if that creates a cycle. Do a call to unionMethod and if parents are equal, this edge will cause a cycle, so don't add this in the MST.
+            
+        Time: 
+            ElogV
+    */
     struct data {
         int u, v, w;
     };
