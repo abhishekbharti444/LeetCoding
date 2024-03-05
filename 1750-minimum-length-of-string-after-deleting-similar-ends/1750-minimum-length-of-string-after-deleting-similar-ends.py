@@ -6,12 +6,10 @@ class Solution:
         while (left <= right):
             ch_left = s[left]
             ch_right = s[right]
-            if (left == right):
-                break
-            if (ch_left != ch_right):
+            if (ch_left != ch_right or left == right):
                 return right - left + 1
             while (left <= right and s[left] == ch_left):
                 left += 1
             while (left <= right and s[right] == ch_right):
                 right -= 1
-        return right - left + 1 if left <= right else 0
+        return 0
