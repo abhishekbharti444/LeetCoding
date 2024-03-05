@@ -14,5 +14,4 @@ class Solution:
                 left += 1
             while (left <= right and s[right] == ch_right):
                 right -= 1
-        # print(left, s[left], right, s[right])
         return right - left + 1 if left <= right else 0
