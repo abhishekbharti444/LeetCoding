@@ -1,6 +1,9 @@
 class Solution {
 public:
+    /*
+        This approach is inspired by the solution section approach 2:
     
+    */
     int util(vector<int>& nums, int goal) {
         int n = nums.size();
         int left = 0;
