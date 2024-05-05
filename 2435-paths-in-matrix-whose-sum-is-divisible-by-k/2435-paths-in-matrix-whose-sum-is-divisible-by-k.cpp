@@ -19,7 +19,6 @@ public:
         if (x == m-1 && y == n-1) {
             if (((curr_sum + g[x][y]) % divisor) == 0) return 1;
             return 0;
-            // return (curr_sum + g[x][y]) % divisor == 0;
         }
         if (memo[x][y][curr_sum] != -1) return memo[x][y][curr_sum];
         return memo[x][y][curr_sum] = (util(x + 1, y, (curr_sum + g[x][y]) % divisor) + util(x, y + 1, (curr_sum + g[x][y]) % divisor)) % mod;
