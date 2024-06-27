@@ -10,7 +10,7 @@ public:
             graph[u] += 1;
             graph[v] += 1;
             
-            // cout<<graph[u]<<endl;
+
             if (max_edges < graph[u]) {
                 max_edges = graph[u];
                 res = u;
@@ -20,7 +20,6 @@ public:
                 res = v;
             }
         }
-        // cout<<max_edges<<endl;
         return res;
     }
 };
