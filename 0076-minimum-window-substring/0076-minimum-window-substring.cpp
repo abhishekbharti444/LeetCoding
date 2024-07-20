@@ -27,7 +27,6 @@ public:
         while (right < m) {
             s_mp[s[right]]++;
             while (left <= right && sContainsT(s_mp, t_mp)) {
-
                 if (res > right - left + 1) {
                     index = left;
                     res = right - left + 1;
