@@ -29,7 +29,6 @@ public:
             res.push_back(dq.front().val);
             right++;
         }
-        // res.push_back(dq.front().val);
         return res;
     }
 };
