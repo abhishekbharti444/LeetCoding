@@ -1,5 +1,17 @@
 class Solution {
 public:
+    
+    /*
+        Approach : 
+        1. Create a time array which denotes how much time each car will take to reach target.
+        2. Keep the time array with float values.
+        3. Create an array which binds the pos and speed of each car together as we want to sort this array based on position. 
+        4. Now, populate the time array and browse through it to find out how many times local maxima changes from right to left of position. 
+        
+        The solution involving mono stack doesnot enhance the time complexity as we will still to sort the info array. 
+        All that solution does is stores the local_maxima changes in a monotonically decreasing stack and it's size becomes the number of fleets. 
+        But that we are able to calculate by just keeping a curr_max value and comparing it with current time value. 
+    */
     struct data {
         int pos;
         int sp;
