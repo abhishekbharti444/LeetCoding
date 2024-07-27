@@ -1,27 +1,28 @@
 class Solution {
 public:
-    
-    vector<vector<int>> res;
     vector<int> nums;
     int n;
-    set<vector<int>> st;
+    vector<vector<int>> res;
+    
     void util(int index, vector<int>& comb) {
-        if (index >= n) {
-            if (index == n) st.insert(comb);
-            return;
+        // if (index == n) {
+        //     res.push_back(comb);
+        //     return;
+        // }
+        res.push_back(comb);
+        for (int i = index; i < n; ++i) {
+            if (i > index && nums[i] == nums[i-1]) continue;
+            comb.push_back(nums[i]);
+            util(i+1, comb);
+            comb.pop_back();
         }
-        comb.push_back(nums[index]);
-        util(index + 1, comb);
-        comb.pop_back();
-        util(index + 1, comb);
     }
     vector<vector<int>> subsetsWithDup(vector<int>& nums) {
         sort(nums.begin(), nums.end());
-        n = nums.size();
         this->nums = nums;
+        n = nums.size();
         vector<int> comb;
         util(0, comb);
-        for (auto& a : st) res.push_back(a);
         return res;
     }
 };
