@@ -1,14 +1,18 @@
 class Solution {
 public:
+    
+    /*
+    
+        This technique is very similar to how we solve combination sum 2. 
+        Sort the input array.
+        In the for loop check if the last element was the same before including, if so continue or else include.
+    */
+    
     vector<int> nums;
     int n;
     vector<vector<int>> res;
     
     void util(int index, vector<int>& comb) {
-        // if (index == n) {
-        //     res.push_back(comb);
-        //     return;
-        // }
         res.push_back(comb);
         for (int i = index; i < n; ++i) {
             if (i > index && nums[i] == nums[i-1]) continue;
