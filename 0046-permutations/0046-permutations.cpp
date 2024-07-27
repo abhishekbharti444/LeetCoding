@@ -28,6 +28,7 @@ public:
         this->nums = nums;
         n = nums.size();
         comb = nums;
+        
         util(0, comb);
         return res;
     }
