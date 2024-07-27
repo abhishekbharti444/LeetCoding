@@ -23,14 +23,6 @@ class Solution {
 public:
     map<Node*, Node*> mp;
     
-//     void util(Node* node) {
-//         if (!node) return;
-//         for (auto& a : node->neighbors) {
-//             mp[a] = node;
-//             util(a);
-//         }
-//     }
-    
     Node* formGraph(Node* node) {
         if (!node) return node;
         if (mp.find(node) != mp.end()) return mp[node];
@@ -43,11 +35,5 @@ public:
     }
     Node* cloneGraph(Node* node) {
         return formGraph(node);
-        // if (!node) return NULL;
-        // Node* root = new Node(node->val);
-        // for (int i = 0; i < node.neighbors.size(); ++i) {
-        //     root->neighbors[i] = 
-        // }
-        // return root;
     }
 };
