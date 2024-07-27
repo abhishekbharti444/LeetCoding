@@ -17,7 +17,7 @@ public:
         int m = rooms.size();
         int n = rooms[0].size();
         
-        queue<pair<int, int>> q;
+        queue<RowCol> q;
         
         for (int i = 0; i < m; ++i) {
             for (int j = 0; j < n; ++j) {
@@ -32,12 +32,12 @@ public:
                 q.pop();
         
                 for (int j = 0; j < 4; ++j) {
-                    int row = top.first + dx[j];
-                    int col = top.second + dy[j];
+                    int row = top.row + dx[j];
+                    int col = top.col + dy[j];
                     if (isValid(row, col, m, n)) {
                         if (rooms[row][col] == -1) continue;
-                        if (rooms[row][col] > 1 + rooms[top.first][top.second]) {
-                            rooms[row][col] = 1 + rooms[top.first][top.second];
+                        if (rooms[row][col] > 1 + rooms[top.row][top.col]) {
+                            rooms[row][col] = 1 + rooms[top.row][top.col];
                             q.push({row, col});
                         }
                     }
