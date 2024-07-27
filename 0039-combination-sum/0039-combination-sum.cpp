@@ -6,7 +6,7 @@ public:
     int target;
     vector<vector<int>> res;
     void util(int index, vector<int>& comb, int curr_sum) {
-        if (index == n) return;
+
         if (curr_sum >= target) {
             if (curr_sum == target) {
                 res.push_back(comb);
