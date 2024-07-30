@@ -1,5 +1,16 @@
 class Solution {
 public:
+    
+    /*
+        Great question. Only difference from course schedule is that the graph is bidirectional. 
+        Approach: 
+            1. If the edge count is not n-1, return false;
+            2. Check for the cycle with top sort
+                2a. Since the graph is bidirectional, push both nodes of the edge in graph. 
+                2b. To handle the cases where you might be trying to visit the same node as prev, introduce a pre node which is the node you have called your next recursion.
+                2c. The condition a==pre will take care of not traversing the same node again from where you came. 
+            3. If no cycle was found, this is a valid tree.
+    */
     int n;
     unordered_map<int, vector<int>> g;
     vector<bool> curr, vis;
