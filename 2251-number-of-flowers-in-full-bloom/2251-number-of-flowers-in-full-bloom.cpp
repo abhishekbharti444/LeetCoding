@@ -1,5 +1,17 @@
 class Solution {
 public:
+    /*
+        Approach: 
+            1. Increment the value of the start of the interval, decrement the value of 1 + end of the interval. 
+            2. Take another map where you can store the prefix_sum value for each key.
+            3. For each query, find the upper bound in the second map of that query,
+                3a. If this iterator is begin of the second map, then this key doesn't hold any flowers. Push 0 to the result and continue.
+                3b. Else, decrement the iterator to get the number of flowers bloomed till that day. 
+            4. Capture the result and return. 
+            
+        Time: O(NLogN) + O(MLogN), N => flowers.size(), M => people.size();
+    */
+    
     vector<int> fullBloomFlowers(vector<vector<int>>& flowers, vector<int>& people) {
         map<int, int> mp, mp1;
         
