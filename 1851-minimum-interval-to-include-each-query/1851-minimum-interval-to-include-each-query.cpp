@@ -1,7 +1,12 @@
 class Solution {
 public:
     
-    
+    /*
+        Great question: 
+            Watch neetcode solution for the intuition. 
+            This solution is inspired by lee215 solution. Very cleverly he has used max_heap as min_heap by keeping numbers negative. 
+            
+    */
     vector<int> minInterval(vector<vector<int>>& intervals, vector<int>& queries) {
         sort(intervals.begin(), intervals.end());
         unordered_map<int, int> res;
