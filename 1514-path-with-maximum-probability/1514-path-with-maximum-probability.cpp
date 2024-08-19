@@ -1,7 +1,9 @@
 class Solution {
 public:
     // const int INF = 1e9 + 7;
-    
+    /*
+        Approach: This problem is very similar to the problem network delay time. Follow the Dijkstra's algorithm and think how can you maximize the path probability by using the same algo. 
+    */
     double maxProbability(int n, vector<vector<int>>& edges, vector<double>& succProb, int start_node, int end_node) {
         unordered_map<int, vector<pair<int, double>>> g;
         
