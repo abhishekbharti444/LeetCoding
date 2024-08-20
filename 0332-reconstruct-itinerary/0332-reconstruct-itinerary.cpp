@@ -1,5 +1,10 @@
 class Solution {
 public:
+    
+    /*
+        This solution is inspired by this leetcode discuss solution: 
+            https://leetcode.com/problems/reconstruct-itinerary/discuss/4041944/95.76-DFS-Recursive-and-Iterative
+    */
     int n;
     vector<string> res;
     unordered_map<string, vector<string>> g;
