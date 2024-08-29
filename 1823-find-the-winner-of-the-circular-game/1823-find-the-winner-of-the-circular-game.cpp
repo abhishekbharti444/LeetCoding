@@ -5,6 +5,7 @@ public:
         for (int i = 1; i <= n; ++i) dq.push_back(i);
         
         while (dq.size() > 1) {
+            // int mod_k = dq.size()%k;
             for (int i = 0; i < k; ++i) {
                 int curr = dq.front();
                 dq.pop_front();
