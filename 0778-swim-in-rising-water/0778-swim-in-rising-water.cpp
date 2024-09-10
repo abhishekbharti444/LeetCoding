@@ -2,6 +2,20 @@
 #define vi vector<int>
 class Solution {
 public:
+    
+    
+    /*
+        Solved it myself without any hints. Just saw the related topics as Binary Search
+        
+        Approach: 
+        1. To get the minimum value with which we can traverse from 0, 0 to m-1, n-1 we have to find a path which satisfies that.
+        2. We can get the low value as the minimum of the matrix and high as the maximum of the matrix. 
+        3. We can choose a mid with which we can check if reachability from 0, 0 to m-1, n-1 is possible or not. 
+        4. For each mid value we apply a dfs from 0, 0 and check if we reach m-1, n-1. If yes, capture that value as a potential result and try to further optimize it by making high to mid-1. If not make the low as mid + 1 to check for a higher value. 
+        
+        Time: O(N^2 log(max_val));
+    */
+    
     vvi g;
     int m, n;
     vvi vis;
