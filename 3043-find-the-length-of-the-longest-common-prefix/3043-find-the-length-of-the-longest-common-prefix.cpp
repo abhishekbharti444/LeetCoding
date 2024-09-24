@@ -3,7 +3,7 @@ public:
     
     
     struct TrieNode {
-        bool isWord = false;
+        // bool isWord = false;
         unordered_map<char, TrieNode*> next;
     };
     
@@ -19,7 +19,7 @@ public:
             }
             curr = curr->next[ch];
         }
-        curr->isWord = true;
+        // curr->isWord = true;
     }
     bool search(string word) {
         TrieNode* curr = root;
@@ -28,7 +28,8 @@ public:
             if (curr->next[ch] == NULL) return false;
             curr = curr->next[ch];
         }
-        return curr->isWord;
+        // return curr->isWord;
+        return true;
     }
     
     
