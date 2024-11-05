@@ -17,10 +17,11 @@ public:
         curr[index] = true;
         bool res = true;
         for (auto& a : g[index]) {
-            res = res && util(a);
+            if (!util(a)) return false;
+            // res = res && util(a);
         }
         curr[index] = false;
-        return res;
+        return true;
     }
     bool canFinish(int numCourses, vector<vector<int>>& prerequisites) {
         n = numCourses;
