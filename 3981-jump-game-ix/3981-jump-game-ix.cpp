@@ -1,5 +1,19 @@
 class Solution {
 public:
+    /*
+        As we can jump towards any larger element to the left, 
+        our nums[i] = largest element so far, will always be true.
+            res[i] = pre[i];
+
+        If the largest element in the prefix is greater than the smallest element in the suffix, 
+        then we can first go left and then right to a larger value.
+        So we choose res[i] = res[i + 1] because res[i + 1] already represents the optimal value 
+        obtained by making the best possible sequence of left and right jumps.
+            if (pre[i] > suf[i+1]) {
+                res[i] = res[i+1];
+            }
+
+    */
     vector<int> maxValue(vector<int>& nums) {
         int n = nums.size();
         vector<int> pre(n, INT_MIN);
