@@ -7,4 +7,21 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [3952-trionic-array-i](https://github.com/abhishekbharti444/LeetCoding/tree/master/3952-trionic-array-i) |
+| [3954-maximum-balanced-shipments](https://github.com/abhishekbharti444/LeetCoding/tree/master/3954-maximum-balanced-shipments) |
+## Dynamic Programming
+|  |
+| ------- |
+| [3954-maximum-balanced-shipments](https://github.com/abhishekbharti444/LeetCoding/tree/master/3954-maximum-balanced-shipments) |
+## Stack
+|  |
+| ------- |
+| [3954-maximum-balanced-shipments](https://github.com/abhishekbharti444/LeetCoding/tree/master/3954-maximum-balanced-shipments) |
+## Greedy
+|  |
+| ------- |
+| [3954-maximum-balanced-shipments](https://github.com/abhishekbharti444/LeetCoding/tree/master/3954-maximum-balanced-shipments) |
+## Monotonic Stack
+|  |
+| ------- |
+| [3954-maximum-balanced-shipments](https://github.com/abhishekbharti444/LeetCoding/tree/master/3954-maximum-balanced-shipments) |
 <!---LeetCode Topics End-->
