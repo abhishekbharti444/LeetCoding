@@ -1,5 +1,33 @@
 class Solution {
 public:
+    /*
+    SOLUTION APPROACH:
+    1. Dynamic Programming with State: Use 3D DP where dp[x][y][dir] represents number of paths 
+    to reach (m-1, n-1) starting from position (x,y) with direction dir
+    
+    2. Direction Encoding: 
+    - dir = 0: moving right (came from left)
+    - dir = 1: moving down (came from top) 
+    - dir = 2: initial state (no previous direction)
+    
+    3. Mirror Reflection Logic:
+    - If moving right into mirror (dir=0): reflect down (new dir=1)
+    - If moving down into mirror (dir=1): reflect right (new dir=0)
+    - Continue reflecting until reaching non-mirror cell or going out of bounds
+    
+    4. Base Cases:
+    - Reached destination (m-1, n-1): return 1 path
+    - Out of bounds: return 0 paths
+    
+    5. Recurrence:
+    - At mirror cell: forced reflection based on entry direction
+    - At empty cell: can move both right and down, sum both possibilities
+    
+    6. Memoization: Cache results to avoid recomputation of subproblems
+    
+    Time Complexity: O(m*n*3) = O(m*n)
+    Space Complexity: O(m*n*3) = O(m*n)
+    */
     int m, n;
     vector<vector<int>> g;
     vector<vector<vector<int>>> dp;
