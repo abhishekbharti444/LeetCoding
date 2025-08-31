@@ -6,6 +6,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Array
 |  |
 | ------- |
+| [3944-minimum-time-to-activate-string](https://github.com/abhishekbharti444/LeetCoding/tree/master/3944-minimum-time-to-activate-string) |
 | [3952-trionic-array-i](https://github.com/abhishekbharti444/LeetCoding/tree/master/3952-trionic-array-i) |
 | [3954-maximum-balanced-shipments](https://github.com/abhishekbharti444/LeetCoding/tree/master/3954-maximum-balanced-shipments) |
 ## Dynamic Programming
@@ -24,4 +25,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [3954-maximum-balanced-shipments](https://github.com/abhishekbharti444/LeetCoding/tree/master/3954-maximum-balanced-shipments) |
+## Binary Search
+|  |
+| ------- |
+| [3944-minimum-time-to-activate-string](https://github.com/abhishekbharti444/LeetCoding/tree/master/3944-minimum-time-to-activate-string) |
 <!---LeetCode Topics End-->
