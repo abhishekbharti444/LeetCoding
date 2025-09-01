@@ -1,56 +1,75 @@
-vector<bool> isPrime (1e6 + 1, true);
+/*
+SOLUTION APPROACH: BFS with Prime Teleportation using Global Prime Array
+
+OPTIMIZATION: Use global prime array to avoid repeated memory allocation
+- Global arrays are faster to access and don't require repeated initialization
+- Lazy initialization ensures sieve is computed only once across multiple test cases
+*/
+
+vector<bool> is_prime(1e6 + 1, true);
 
 class Solution {
 public:
-    void fill () {
-        isPrime [0] = isPrime [1] = false;
-        for (int i = 2; i * i <= 1e6; ++i) {
-            if (isPrime [i]) {
-                for (int j = i * i; j <= 1e6; j += i)
-                    isPrime [j] = false;
+    void fillPrime() {
+        is_prime[0] = is_prime[1] = false;
+        for (int i = 2; i * i <= 1e6; i++) {
+            if (is_prime[i]) {
+                for (int j = i * i; j <= 1e6; j += i) {
+                    is_prime[j] = false;
+                }
             }
         }
     }
-
+    
     int minJumps(vector<int>& nums) {
-        if (isPrime[0]) fill();
-        int n = nums.size(), maxi = *ranges::max_element(nums);
-        unordered_map <int,vector <int>> mp;
-        for (int i = 0; i < n; i++) mp[nums[i]].push_back(i);
+        // Lazy initialization - fill prime array only once
+        if (is_prime[0]) fillPrime();
         
-        vector <int> dist (n, -1);
-        queue <int> qu;
-        qu.push(0); dist[0] = 0;
-        unordered_set <int> used;
-
-        while (qu.empty() == false) {
-            int node = qu.front();
-            qu.pop();
-
-            if (node - 1 >= 0 && dist[node-1] == -1) {
-                qu.push(node-1);
-                dist[node-1] = dist[node] + 1;
-            }
-            if (node + 1 < n && dist[node+1] == -1) {
-                qu.push(node+1);
-                dist[node+1] = dist[node] + 1;
-            }
-
-            if (isPrime[nums[node]] == false || used.contains(nums[node])) continue;
-
-            for (int tar = nums[node]; tar <= maxi; tar += nums[node]) {
-                if (mp.contains(tar) == false) continue;
-                for (auto it : mp[tar]) {
-                    if (dist[it] != -1) continue;
-                    qu.push(it);
-                    if (it == n-1) return dist[node] + 1;
-                    dist[it] = dist[node] + 1;
-                }
-            }
-
-            used.insert(nums[node]);
+        vector<int> A = nums;
+        int n = A.size();
+        queue<int> q;
+        vector<int> dist(n, -1);
+        q.push(0);
+        dist[0] = 0;
+        int max_el = *max_element(A.begin(), A.end());
+        
+        unordered_map<int, vector<int>> mp;
+        for (int i = 0; i < A.size(); ++i) {
+            mp[A[i]].push_back(i);
         }
 
-        return dist.back();
+        unordered_set<int> vis;
+        
+        while (!q.empty()) {
+            int curr_index = q.front();
+            q.pop();
+            
+            // Adjacent moves
+            if (curr_index - 1 >= 0 && dist[curr_index - 1] == -1) {
+                dist[curr_index - 1] = dist[curr_index] + 1;
+                q.push(curr_index - 1);
+            }
+
+            if (curr_index + 1 < n && dist[curr_index + 1] == -1) {
+                dist[curr_index + 1] = dist[curr_index] + 1;
+                q.push(curr_index + 1);
+            }
+            
+            // Prime teleportation
+            if (!is_prime[A[curr_index]] || vis.contains(A[curr_index])) continue;
+            
+            for (int next = A[curr_index]; next <= max_el; next += A[curr_index]) {
+                if (!mp.contains(next)) continue;
+                for (auto el : mp[next]) {
+                    if (dist[el] != -1) continue;
+                    q.push(el);
+                    if (el == n-1) return dist[curr_index] + 1;
+                    dist[el] = dist[curr_index] + 1;
+                }
+            }
+            vis.insert(A[curr_index]);
+        }
+        
+        return dist[n-1];
     }
 };
