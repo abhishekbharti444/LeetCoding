@@ -10,6 +10,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [3952-trionic-array-i](https://github.com/abhishekbharti444/LeetCoding/tree/master/3952-trionic-array-i) |
 | [3954-maximum-balanced-shipments](https://github.com/abhishekbharti444/LeetCoding/tree/master/3954-maximum-balanced-shipments) |
 | [3956-trionic-array-ii](https://github.com/abhishekbharti444/LeetCoding/tree/master/3956-trionic-array-ii) |
+| [3958-minimum-removals-to-balance-array](https://github.com/abhishekbharti444/LeetCoding/tree/master/3958-minimum-removals-to-balance-array) |
 | [3965-earliest-finish-time-for-land-and-water-rides-i](https://github.com/abhishekbharti444/LeetCoding/tree/master/3965-earliest-finish-time-for-land-and-water-rides-i) |
 ## Dynamic Programming
 |  |
@@ -41,5 +42,10 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Sorting
 |  |
 | ------- |
+| [3958-minimum-removals-to-balance-array](https://github.com/abhishekbharti444/LeetCoding/tree/master/3958-minimum-removals-to-balance-array) |
 | [3965-earliest-finish-time-for-land-and-water-rides-i](https://github.com/abhishekbharti444/LeetCoding/tree/master/3965-earliest-finish-time-for-land-and-water-rides-i) |
+## Sliding Window
+|  |
+| ------- |
+| [3958-minimum-removals-to-balance-array](https://github.com/abhishekbharti444/LeetCoding/tree/master/3958-minimum-removals-to-balance-array) |
 <!---LeetCode Topics End-->
