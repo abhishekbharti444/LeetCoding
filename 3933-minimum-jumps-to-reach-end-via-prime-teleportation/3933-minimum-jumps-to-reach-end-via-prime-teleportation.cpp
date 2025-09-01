@@ -22,7 +22,7 @@ public:
     }
     
     int minJumps(vector<int>& nums) {
-        // Lazy initialization - fill prime array only once
+        // Lazy initialization - fill prime array only once across all test cases. 
         if (is_prime[0]) fillPrime();
         
         vector<int> A = nums;
@@ -44,6 +44,7 @@ public:
             int curr_index = q.front();
             q.pop();
             
+            if (curr_index == n-1) return dist[curr_index];
             // Adjacent moves
             if (curr_index - 1 >= 0 && dist[curr_index - 1] == -1) {
                 dist[curr_index - 1] = dist[curr_index] + 1;
