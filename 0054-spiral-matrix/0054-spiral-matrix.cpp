@@ -25,7 +25,7 @@ public:
             int ny = y + dir[curr_dir][1];
 
             // If next cell is invalid either due to out of bounds
-            // or due that cell being visited.
+            // or due that cell being visited; change the direction
             if (!isValid(nx, ny) || vis[nx][ny]) {
                 curr_dir = (curr_dir + 1) % 4;
                 nx = x + dir[curr_dir][0];
