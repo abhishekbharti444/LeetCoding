@@ -17,15 +17,15 @@ public:
         int y = 0;
         int curr_dir = 0;
         for (int i = 0; i < r * c; ++i) {
-            // visit current el
+            // visit current cell
             res.push_back(mat[x][y]);
             vis[x][y] = true;
             // Find next cells
             int nx = x + dir[curr_dir][0];
             int ny = y + dir[curr_dir][1];
 
-            // If next cells is invalid either due to out of bounds
-            // or due to next cell being visited.
+            // If next cell is invalid either due to out of bounds
+            // or due that cell being visited.
             if (!isValid(nx, ny) || vis[nx][ny]) {
                 curr_dir = (curr_dir + 1) % 4;
                 nx = x + dir[curr_dir][0];
