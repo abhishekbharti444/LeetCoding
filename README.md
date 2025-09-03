@@ -10,6 +10,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [3766-maximum-median-sum-of-subsequences-of-size-3](https://github.com/abhishekbharti444/LeetCoding/tree/master/3766-maximum-median-sum-of-subsequences-of-size-3) |
 | [3823-count-islands-with-total-value-divisible-by-k](https://github.com/abhishekbharti444/LeetCoding/tree/master/3823-count-islands-with-total-value-divisible-by-k) |
 | [3886-count-number-of-trapezoids-i](https://github.com/abhishekbharti444/LeetCoding/tree/master/3886-count-number-of-trapezoids-i) |
+| [3919-network-recovery-pathways](https://github.com/abhishekbharti444/LeetCoding/tree/master/3919-network-recovery-pathways) |
 | [3933-minimum-jumps-to-reach-end-via-prime-teleportation](https://github.com/abhishekbharti444/LeetCoding/tree/master/3933-minimum-jumps-to-reach-end-via-prime-teleportation) |
 | [3936-split-array-by-prime-indices](https://github.com/abhishekbharti444/LeetCoding/tree/master/3936-split-array-by-prime-indices) |
 | [3944-minimum-time-to-activate-string](https://github.com/abhishekbharti444/LeetCoding/tree/master/3944-minimum-time-to-activate-string) |
@@ -22,6 +23,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Dynamic Programming
 |  |
 | ------- |
+| [3919-network-recovery-pathways](https://github.com/abhishekbharti444/LeetCoding/tree/master/3919-network-recovery-pathways) |
 | [3948-maximum-number-of-subsequences-after-one-inserting](https://github.com/abhishekbharti444/LeetCoding/tree/master/3948-maximum-number-of-subsequences-after-one-inserting) |
 | [3954-maximum-balanced-shipments](https://github.com/abhishekbharti444/LeetCoding/tree/master/3954-maximum-balanced-shipments) |
 | [3956-trionic-array-ii](https://github.com/abhishekbharti444/LeetCoding/tree/master/3956-trionic-array-ii) |
@@ -44,6 +46,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Binary Search
 |  |
 | ------- |
+| [3919-network-recovery-pathways](https://github.com/abhishekbharti444/LeetCoding/tree/master/3919-network-recovery-pathways) |
 | [3944-minimum-time-to-activate-string](https://github.com/abhishekbharti444/LeetCoding/tree/master/3944-minimum-time-to-activate-string) |
 | [3965-earliest-finish-time-for-land-and-water-rides-i](https://github.com/abhishekbharti444/LeetCoding/tree/master/3965-earliest-finish-time-for-land-and-water-rides-i) |
 | [3967-earliest-finish-time-for-land-and-water-rides-ii](https://github.com/abhishekbharti444/LeetCoding/tree/master/3967-earliest-finish-time-for-land-and-water-rides-ii) |
@@ -119,4 +122,20 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [3823-count-islands-with-total-value-divisible-by-k](https://github.com/abhishekbharti444/LeetCoding/tree/master/3823-count-islands-with-total-value-divisible-by-k) |
+## Graph
+|  |
+| ------- |
+| [3919-network-recovery-pathways](https://github.com/abhishekbharti444/LeetCoding/tree/master/3919-network-recovery-pathways) |
+## Topological Sort
+|  |
+| ------- |
+| [3919-network-recovery-pathways](https://github.com/abhishekbharti444/LeetCoding/tree/master/3919-network-recovery-pathways) |
+## Heap (Priority Queue)
+|  |
+| ------- |
+| [3919-network-recovery-pathways](https://github.com/abhishekbharti444/LeetCoding/tree/master/3919-network-recovery-pathways) |
+## Shortest Path
+|  |
+| ------- |
+| [3919-network-recovery-pathways](https://github.com/abhishekbharti444/LeetCoding/tree/master/3919-network-recovery-pathways) |
 <!---LeetCode Topics End-->
