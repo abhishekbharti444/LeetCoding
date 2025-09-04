@@ -46,6 +46,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Binary Search
 |  |
 | ------- |
+| [3881-minimize-maximum-component-cost](https://github.com/abhishekbharti444/LeetCoding/tree/master/3881-minimize-maximum-component-cost) |
 | [3919-network-recovery-pathways](https://github.com/abhishekbharti444/LeetCoding/tree/master/3919-network-recovery-pathways) |
 | [3944-minimum-time-to-activate-string](https://github.com/abhishekbharti444/LeetCoding/tree/master/3944-minimum-time-to-activate-string) |
 | [3965-earliest-finish-time-for-land-and-water-rides-i](https://github.com/abhishekbharti444/LeetCoding/tree/master/3965-earliest-finish-time-for-land-and-water-rides-i) |
@@ -59,6 +60,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [3766-maximum-median-sum-of-subsequences-of-size-3](https://github.com/abhishekbharti444/LeetCoding/tree/master/3766-maximum-median-sum-of-subsequences-of-size-3) |
+| [3881-minimize-maximum-component-cost](https://github.com/abhishekbharti444/LeetCoding/tree/master/3881-minimize-maximum-component-cost) |
 | [3958-minimum-removals-to-balance-array](https://github.com/abhishekbharti444/LeetCoding/tree/master/3958-minimum-removals-to-balance-array) |
 | [3965-earliest-finish-time-for-land-and-water-rides-i](https://github.com/abhishekbharti444/LeetCoding/tree/master/3965-earliest-finish-time-for-land-and-water-rides-i) |
 | [3967-earliest-finish-time-for-land-and-water-rides-ii](https://github.com/abhishekbharti444/LeetCoding/tree/master/3967-earliest-finish-time-for-land-and-water-rides-ii) |
@@ -124,9 +126,11 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [3823-count-islands-with-total-value-divisible-by-k](https://github.com/abhishekbharti444/LeetCoding/tree/master/3823-count-islands-with-total-value-divisible-by-k) |
+| [3881-minimize-maximum-component-cost](https://github.com/abhishekbharti444/LeetCoding/tree/master/3881-minimize-maximum-component-cost) |
 ## Graph
 |  |
 | ------- |
+| [3881-minimize-maximum-component-cost](https://github.com/abhishekbharti444/LeetCoding/tree/master/3881-minimize-maximum-component-cost) |
 | [3919-network-recovery-pathways](https://github.com/abhishekbharti444/LeetCoding/tree/master/3919-network-recovery-pathways) |
 ## Topological Sort
 |  |
