@@ -12,6 +12,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [3886-count-number-of-trapezoids-i](https://github.com/abhishekbharti444/LeetCoding/tree/master/3886-count-number-of-trapezoids-i) |
 | [3919-network-recovery-pathways](https://github.com/abhishekbharti444/LeetCoding/tree/master/3919-network-recovery-pathways) |
 | [3933-minimum-jumps-to-reach-end-via-prime-teleportation](https://github.com/abhishekbharti444/LeetCoding/tree/master/3933-minimum-jumps-to-reach-end-via-prime-teleportation) |
+| [3934-coupon-code-validator](https://github.com/abhishekbharti444/LeetCoding/tree/master/3934-coupon-code-validator) |
 | [3936-split-array-by-prime-indices](https://github.com/abhishekbharti444/LeetCoding/tree/master/3936-split-array-by-prime-indices) |
 | [3944-minimum-time-to-activate-string](https://github.com/abhishekbharti444/LeetCoding/tree/master/3944-minimum-time-to-activate-string) |
 | [3952-trionic-array-i](https://github.com/abhishekbharti444/LeetCoding/tree/master/3952-trionic-array-i) |
@@ -61,6 +62,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [3766-maximum-median-sum-of-subsequences-of-size-3](https://github.com/abhishekbharti444/LeetCoding/tree/master/3766-maximum-median-sum-of-subsequences-of-size-3) |
 | [3881-minimize-maximum-component-cost](https://github.com/abhishekbharti444/LeetCoding/tree/master/3881-minimize-maximum-component-cost) |
+| [3934-coupon-code-validator](https://github.com/abhishekbharti444/LeetCoding/tree/master/3934-coupon-code-validator) |
 | [3958-minimum-removals-to-balance-array](https://github.com/abhishekbharti444/LeetCoding/tree/master/3958-minimum-removals-to-balance-array) |
 | [3965-earliest-finish-time-for-land-and-water-rides-i](https://github.com/abhishekbharti444/LeetCoding/tree/master/3965-earliest-finish-time-for-land-and-water-rides-i) |
 | [3967-earliest-finish-time-for-land-and-water-rides-ii](https://github.com/abhishekbharti444/LeetCoding/tree/master/3967-earliest-finish-time-for-land-and-water-rides-ii) |
@@ -85,6 +87,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [3886-count-number-of-trapezoids-i](https://github.com/abhishekbharti444/LeetCoding/tree/master/3886-count-number-of-trapezoids-i) |
 | [3933-minimum-jumps-to-reach-end-via-prime-teleportation](https://github.com/abhishekbharti444/LeetCoding/tree/master/3933-minimum-jumps-to-reach-end-via-prime-teleportation) |
+| [3934-coupon-code-validator](https://github.com/abhishekbharti444/LeetCoding/tree/master/3934-coupon-code-validator) |
 ## Breadth-First Search
 |  |
 | ------- |
@@ -99,6 +102,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [3931-process-string-with-special-operations-i](https://github.com/abhishekbharti444/LeetCoding/tree/master/3931-process-string-with-special-operations-i) |
+| [3934-coupon-code-validator](https://github.com/abhishekbharti444/LeetCoding/tree/master/3934-coupon-code-validator) |
 | [3939-process-string-with-special-operations-ii](https://github.com/abhishekbharti444/LeetCoding/tree/master/3939-process-string-with-special-operations-ii) |
 | [3948-maximum-number-of-subsequences-after-one-inserting](https://github.com/abhishekbharti444/LeetCoding/tree/master/3948-maximum-number-of-subsequences-after-one-inserting) |
 ## Prefix Sum
