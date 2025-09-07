@@ -79,6 +79,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [3766-maximum-median-sum-of-subsequences-of-size-3](https://github.com/abhishekbharti444/LeetCoding/tree/master/3766-maximum-median-sum-of-subsequences-of-size-3) |
 | [3886-count-number-of-trapezoids-i](https://github.com/abhishekbharti444/LeetCoding/tree/master/3886-count-number-of-trapezoids-i) |
 | [3918-check-divisibility-by-digit-sum-and-product](https://github.com/abhishekbharti444/LeetCoding/tree/master/3918-check-divisibility-by-digit-sum-and-product) |
+| [3922-minimum-moves-to-reach-target-in-grid](https://github.com/abhishekbharti444/LeetCoding/tree/master/3922-minimum-moves-to-reach-target-in-grid) |
 | [3933-minimum-jumps-to-reach-end-via-prime-teleportation](https://github.com/abhishekbharti444/LeetCoding/tree/master/3933-minimum-jumps-to-reach-end-via-prime-teleportation) |
 | [3936-split-array-by-prime-indices](https://github.com/abhishekbharti444/LeetCoding/tree/master/3936-split-array-by-prime-indices) |
 ## Game Theory
