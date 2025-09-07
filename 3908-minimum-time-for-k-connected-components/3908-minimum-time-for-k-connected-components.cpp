@@ -18,7 +18,7 @@ public:
             if (!vis[i]) {
                 dfsUtil(i, vis, tm);
                 count++;
-                // if (count >= target_count) return true;
+                if (count >= target_count) return true;
             }
         }
         cout<<"Count: "<<count<<endl;
