@@ -21,7 +21,6 @@ public:
                 if (count >= target_count) return true;
             }
         }
-        cout<<"Count: "<<count<<endl;
         return count >= target_count;
     }
     int minTime(int n, vector<vector<int>>& edges, int k) {
@@ -37,7 +36,6 @@ public:
         while (low <= high) {
             int mid = low + (high - low)/2;
             bool check = getNumberOfComponents(mid, k);
-            cout<<"mid -> "<<mid<<"; Check => "<<check<<endl;
             if (check) {
                 res = mid;
                 high = mid - 1;
