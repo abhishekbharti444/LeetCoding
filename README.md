@@ -94,6 +94,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [3863-power-grid-maintenance](https://github.com/abhishekbharti444/LeetCoding/tree/master/3863-power-grid-maintenance) |
 | [3886-count-number-of-trapezoids-i](https://github.com/abhishekbharti444/LeetCoding/tree/master/3886-count-number-of-trapezoids-i) |
+| [3905-partition-string](https://github.com/abhishekbharti444/LeetCoding/tree/master/3905-partition-string) |
 | [3933-minimum-jumps-to-reach-end-via-prime-teleportation](https://github.com/abhishekbharti444/LeetCoding/tree/master/3933-minimum-jumps-to-reach-end-via-prime-teleportation) |
 | [3934-coupon-code-validator](https://github.com/abhishekbharti444/LeetCoding/tree/master/3934-coupon-code-validator) |
 ## Breadth-First Search
@@ -110,6 +111,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## String
 |  |
 | ------- |
+| [3905-partition-string](https://github.com/abhishekbharti444/LeetCoding/tree/master/3905-partition-string) |
 | [3912-hexadecimal-and-hexatrigesimal-conversion](https://github.com/abhishekbharti444/LeetCoding/tree/master/3912-hexadecimal-and-hexatrigesimal-conversion) |
 | [3931-process-string-with-special-operations-i](https://github.com/abhishekbharti444/LeetCoding/tree/master/3931-process-string-with-special-operations-i) |
 | [3934-coupon-code-validator](https://github.com/abhishekbharti444/LeetCoding/tree/master/3934-coupon-code-validator) |
@@ -133,6 +135,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0054-spiral-matrix](https://github.com/abhishekbharti444/LeetCoding/tree/master/0054-spiral-matrix) |
+| [3905-partition-string](https://github.com/abhishekbharti444/LeetCoding/tree/master/3905-partition-string) |
 | [3931-process-string-with-special-operations-i](https://github.com/abhishekbharti444/LeetCoding/tree/master/3931-process-string-with-special-operations-i) |
 | [3939-process-string-with-special-operations-ii](https://github.com/abhishekbharti444/LeetCoding/tree/master/3939-process-string-with-special-operations-ii) |
 ## Depth-First Search
@@ -174,4 +177,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [3863-power-grid-maintenance](https://github.com/abhishekbharti444/LeetCoding/tree/master/3863-power-grid-maintenance) |
+## Trie
+|  |
+| ------- |
+| [3905-partition-string](https://github.com/abhishekbharti444/LeetCoding/tree/master/3905-partition-string) |
 <!---LeetCode Topics End-->
