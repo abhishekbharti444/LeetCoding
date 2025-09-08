@@ -80,6 +80,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [3766-maximum-median-sum-of-subsequences-of-size-3](https://github.com/abhishekbharti444/LeetCoding/tree/master/3766-maximum-median-sum-of-subsequences-of-size-3) |
 | [3886-count-number-of-trapezoids-i](https://github.com/abhishekbharti444/LeetCoding/tree/master/3886-count-number-of-trapezoids-i) |
+| [3912-hexadecimal-and-hexatrigesimal-conversion](https://github.com/abhishekbharti444/LeetCoding/tree/master/3912-hexadecimal-and-hexatrigesimal-conversion) |
 | [3918-check-divisibility-by-digit-sum-and-product](https://github.com/abhishekbharti444/LeetCoding/tree/master/3918-check-divisibility-by-digit-sum-and-product) |
 | [3922-minimum-moves-to-reach-target-in-grid](https://github.com/abhishekbharti444/LeetCoding/tree/master/3922-minimum-moves-to-reach-target-in-grid) |
 | [3933-minimum-jumps-to-reach-end-via-prime-teleportation](https://github.com/abhishekbharti444/LeetCoding/tree/master/3933-minimum-jumps-to-reach-end-via-prime-teleportation) |
@@ -109,6 +110,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## String
 |  |
 | ------- |
+| [3912-hexadecimal-and-hexatrigesimal-conversion](https://github.com/abhishekbharti444/LeetCoding/tree/master/3912-hexadecimal-and-hexatrigesimal-conversion) |
 | [3931-process-string-with-special-operations-i](https://github.com/abhishekbharti444/LeetCoding/tree/master/3931-process-string-with-special-operations-i) |
 | [3934-coupon-code-validator](https://github.com/abhishekbharti444/LeetCoding/tree/master/3934-coupon-code-validator) |
 | [3939-process-string-with-special-operations-ii](https://github.com/abhishekbharti444/LeetCoding/tree/master/3939-process-string-with-special-operations-ii) |
