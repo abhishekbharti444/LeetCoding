@@ -151,6 +151,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [3863-power-grid-maintenance](https://github.com/abhishekbharti444/LeetCoding/tree/master/3863-power-grid-maintenance) |
 | [3881-minimize-maximum-component-cost](https://github.com/abhishekbharti444/LeetCoding/tree/master/3881-minimize-maximum-component-cost) |
 | [3908-minimum-time-for-k-connected-components](https://github.com/abhishekbharti444/LeetCoding/tree/master/3908-minimum-time-for-k-connected-components) |
+| [3916-minimum-time-to-reach-destination-in-directed-graph](https://github.com/abhishekbharti444/LeetCoding/tree/master/3916-minimum-time-to-reach-destination-in-directed-graph) |
 | [3919-network-recovery-pathways](https://github.com/abhishekbharti444/LeetCoding/tree/master/3919-network-recovery-pathways) |
 ## Topological Sort
 |  |
@@ -160,10 +161,12 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [3863-power-grid-maintenance](https://github.com/abhishekbharti444/LeetCoding/tree/master/3863-power-grid-maintenance) |
+| [3916-minimum-time-to-reach-destination-in-directed-graph](https://github.com/abhishekbharti444/LeetCoding/tree/master/3916-minimum-time-to-reach-destination-in-directed-graph) |
 | [3919-network-recovery-pathways](https://github.com/abhishekbharti444/LeetCoding/tree/master/3919-network-recovery-pathways) |
 ## Shortest Path
 |  |
 | ------- |
+| [3916-minimum-time-to-reach-destination-in-directed-graph](https://github.com/abhishekbharti444/LeetCoding/tree/master/3916-minimum-time-to-reach-destination-in-directed-graph) |
 | [3919-network-recovery-pathways](https://github.com/abhishekbharti444/LeetCoding/tree/master/3919-network-recovery-pathways) |
 ## Ordered Set
 |  |
