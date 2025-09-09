@@ -7,6 +7,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0054-spiral-matrix](https://github.com/abhishekbharti444/LeetCoding/tree/master/0054-spiral-matrix) |
+| [0307-range-sum-query-mutable](https://github.com/abhishekbharti444/LeetCoding/tree/master/0307-range-sum-query-mutable) |
 | [3766-maximum-median-sum-of-subsequences-of-size-3](https://github.com/abhishekbharti444/LeetCoding/tree/master/3766-maximum-median-sum-of-subsequences-of-size-3) |
 | [3823-count-islands-with-total-value-divisible-by-k](https://github.com/abhishekbharti444/LeetCoding/tree/master/3823-count-islands-with-total-value-divisible-by-k) |
 | [3863-power-grid-maintenance](https://github.com/abhishekbharti444/LeetCoding/tree/master/3863-power-grid-maintenance) |
@@ -181,4 +182,20 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [3905-partition-string](https://github.com/abhishekbharti444/LeetCoding/tree/master/3905-partition-string) |
+## Divide and Conquer
+|  |
+| ------- |
+| [0307-range-sum-query-mutable](https://github.com/abhishekbharti444/LeetCoding/tree/master/0307-range-sum-query-mutable) |
+## Design
+|  |
+| ------- |
+| [0307-range-sum-query-mutable](https://github.com/abhishekbharti444/LeetCoding/tree/master/0307-range-sum-query-mutable) |
+## Binary Indexed Tree
+|  |
+| ------- |
+| [0307-range-sum-query-mutable](https://github.com/abhishekbharti444/LeetCoding/tree/master/0307-range-sum-query-mutable) |
+## Segment Tree
+|  |
+| ------- |
+| [0307-range-sum-query-mutable](https://github.com/abhishekbharti444/LeetCoding/tree/master/0307-range-sum-query-mutable) |
 <!---LeetCode Topics End-->
