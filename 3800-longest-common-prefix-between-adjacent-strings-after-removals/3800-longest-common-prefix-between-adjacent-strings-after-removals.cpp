@@ -15,25 +15,19 @@ public:
         int n = words.size();
         if (n <= 1) return vector<int>(n, 0);
         
-        // Store individual pair similarities (not running max!)
+        // Store individual pair similarities
         vector<int> pre(n, 0);
         vector<int> suf(n, 0);
         
-        // Individual similarities for adjacent pairs
         for (int i = 1; i < n; ++i) {
-            pre[i] = similarity(words[i-1], words[i]);
+            int sim = similarity(words[i-1], words[i]);
+            pre[i] = max(sim, pre[i-1]);
         }
-        for (int i = 0; i < n-1; ++i) {
-            suf[i] = similarity(words[i], words[i+1]);
+        for (int i = n-2; i >= 0; --i) {
+            int sim = similarity(words[i+1], words[i]);
+            suf[i] = max(sim, suf[i+1]);
         }
         
-        // Convert to prefix/suffix maximums
-        for (int i = 2; i < n; ++i) {
-            pre[i] = max(pre[i], pre[i-1]);
-        }
-        for (int i = n-3; i >= 0; --i) {
-            suf[i] = max(suf[i], suf[i+1]);
-        }
         
         vector<int> res(n, 0);
         for (int i = 0; i < n; ++i) {
