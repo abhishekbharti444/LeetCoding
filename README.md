@@ -12,6 +12,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0327-count-of-range-sum](https://github.com/abhishekbharti444/LeetCoding/tree/master/0327-count-of-range-sum) |
 | [1772-create-sorted-array-through-instructions](https://github.com/abhishekbharti444/LeetCoding/tree/master/1772-create-sorted-array-through-instructions) |
 | [3766-maximum-median-sum-of-subsequences-of-size-3](https://github.com/abhishekbharti444/LeetCoding/tree/master/3766-maximum-median-sum-of-subsequences-of-size-3) |
+| [3800-longest-common-prefix-between-adjacent-strings-after-removals](https://github.com/abhishekbharti444/LeetCoding/tree/master/3800-longest-common-prefix-between-adjacent-strings-after-removals) |
 | [3823-count-islands-with-total-value-divisible-by-k](https://github.com/abhishekbharti444/LeetCoding/tree/master/3823-count-islands-with-total-value-divisible-by-k) |
 | [3863-power-grid-maintenance](https://github.com/abhishekbharti444/LeetCoding/tree/master/3863-power-grid-maintenance) |
 | [3886-count-number-of-trapezoids-i](https://github.com/abhishekbharti444/LeetCoding/tree/master/3886-count-number-of-trapezoids-i) |
@@ -118,6 +119,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## String
 |  |
 | ------- |
+| [3800-longest-common-prefix-between-adjacent-strings-after-removals](https://github.com/abhishekbharti444/LeetCoding/tree/master/3800-longest-common-prefix-between-adjacent-strings-after-removals) |
 | [3905-partition-string](https://github.com/abhishekbharti444/LeetCoding/tree/master/3905-partition-string) |
 | [3912-hexadecimal-and-hexatrigesimal-conversion](https://github.com/abhishekbharti444/LeetCoding/tree/master/3912-hexadecimal-and-hexatrigesimal-conversion) |
 | [3931-process-string-with-special-operations-i](https://github.com/abhishekbharti444/LeetCoding/tree/master/3931-process-string-with-special-operations-i) |
