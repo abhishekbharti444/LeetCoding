@@ -15,7 +15,7 @@ public:
         int n = words.size();
         if (n <= 1) return vector<int>(n, 0);
         
-        // Store individual pair similarities
+        // Store running max prefix/suffix counts
         vector<int> pre(n, 0);
         vector<int> suf(n, 0);
         
