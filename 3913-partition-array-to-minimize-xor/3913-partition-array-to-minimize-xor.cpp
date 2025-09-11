@@ -1,27 +1,44 @@
-class Solution {
-public:
-    vector<vector<int>> dp;
-    int n;
-    int k;
-    int util(int index, int curr_k, vector<int>& nums) {
-        if (index == n && curr_k == k) return 0;
-        if (index == n) return INT_MAX;
-        if (curr_k > k) return INT_MAX;
-        if (dp[index][curr_k] != -1) return dp[index][curr_k];
+/*
+APPROACH: Recursive DP with Memoization
+- State: dp[index][subarrays_used] = min possible max XOR from index onwards
+- For each position, try all possible subarray endings
+- Return minimum of maximum XORs across all valid partitions
+Time: O(n²k), Space: O(nk)
+*/
 
-        int ans = INT_MAX;
-        int curr_xor = 0;
-        for (int i = index; i < n; ++i) {
-            curr_xor ^= nums[i];
-            int next_xor = util(i + 1, curr_k + 1, nums);
-            if (next_xor != INT_MAX) ans = min(ans, max(curr_xor, next_xor));
+class Solution {
+private:
+    vector<vector<int>> dp;
+    int n, k;
+    
+    int solve(int idx, int used, vector<int>& nums) {
+        // Base cases
+        if (idx == n && used == k) return 0;           // Valid partition
+        if (idx == n || used > k) return INT_MAX;      // Invalid state
+        
+        if (dp[idx][used] != -1) return dp[idx][used];
+        
+        int result = INT_MAX;
+        int xor_val = 0;
+        
+        // Try all possible subarray endings from current index
+        for (int end = idx; end < n; end++) {
+            xor_val ^= nums[end];
+            int remaining = solve(end + 1, used + 1, nums);
+            
+            if (remaining != INT_MAX) {
+                result = min(result, max(xor_val, remaining));
+            }
         }
-        return dp[index][curr_k] = ans;
+        
+        return dp[idx][used] = result;
     }
+    
+public:
     int minXor(vector<int>& nums, int k) {
         n = nums.size();
         this->k = k;
-        dp.resize(n+1, vector<int> (k+1, -1));
-        return util(0, 0, nums);
+        dp.assign(n + 1, vector<int>(k + 1, -1));
+        return solve(0, 0, nums);
     }
 };
