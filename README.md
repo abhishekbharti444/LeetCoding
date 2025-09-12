@@ -17,6 +17,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [3863-power-grid-maintenance](https://github.com/abhishekbharti444/LeetCoding/tree/master/3863-power-grid-maintenance) |
 | [3886-count-number-of-trapezoids-i](https://github.com/abhishekbharti444/LeetCoding/tree/master/3886-count-number-of-trapezoids-i) |
 | [3913-partition-array-to-minimize-xor](https://github.com/abhishekbharti444/LeetCoding/tree/master/3913-partition-array-to-minimize-xor) |
+| [3914-check-if-any-element-has-prime-frequency](https://github.com/abhishekbharti444/LeetCoding/tree/master/3914-check-if-any-element-has-prime-frequency) |
 | [3919-network-recovery-pathways](https://github.com/abhishekbharti444/LeetCoding/tree/master/3919-network-recovery-pathways) |
 | [3927-minimum-cost-path-with-alternating-directions-ii](https://github.com/abhishekbharti444/LeetCoding/tree/master/3927-minimum-cost-path-with-alternating-directions-ii) |
 | [3933-minimum-jumps-to-reach-end-via-prime-teleportation](https://github.com/abhishekbharti444/LeetCoding/tree/master/3933-minimum-jumps-to-reach-end-via-prime-teleportation) |
@@ -93,6 +94,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [3766-maximum-median-sum-of-subsequences-of-size-3](https://github.com/abhishekbharti444/LeetCoding/tree/master/3766-maximum-median-sum-of-subsequences-of-size-3) |
 | [3886-count-number-of-trapezoids-i](https://github.com/abhishekbharti444/LeetCoding/tree/master/3886-count-number-of-trapezoids-i) |
 | [3912-hexadecimal-and-hexatrigesimal-conversion](https://github.com/abhishekbharti444/LeetCoding/tree/master/3912-hexadecimal-and-hexatrigesimal-conversion) |
+| [3914-check-if-any-element-has-prime-frequency](https://github.com/abhishekbharti444/LeetCoding/tree/master/3914-check-if-any-element-has-prime-frequency) |
 | [3918-check-divisibility-by-digit-sum-and-product](https://github.com/abhishekbharti444/LeetCoding/tree/master/3918-check-divisibility-by-digit-sum-and-product) |
 | [3922-minimum-moves-to-reach-target-in-grid](https://github.com/abhishekbharti444/LeetCoding/tree/master/3922-minimum-moves-to-reach-target-in-grid) |
 | [3933-minimum-jumps-to-reach-end-via-prime-teleportation](https://github.com/abhishekbharti444/LeetCoding/tree/master/3933-minimum-jumps-to-reach-end-via-prime-teleportation) |
@@ -107,6 +109,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [3863-power-grid-maintenance](https://github.com/abhishekbharti444/LeetCoding/tree/master/3863-power-grid-maintenance) |
 | [3886-count-number-of-trapezoids-i](https://github.com/abhishekbharti444/LeetCoding/tree/master/3886-count-number-of-trapezoids-i) |
 | [3905-partition-string](https://github.com/abhishekbharti444/LeetCoding/tree/master/3905-partition-string) |
+| [3914-check-if-any-element-has-prime-frequency](https://github.com/abhishekbharti444/LeetCoding/tree/master/3914-check-if-any-element-has-prime-frequency) |
 | [3933-minimum-jumps-to-reach-end-via-prime-teleportation](https://github.com/abhishekbharti444/LeetCoding/tree/master/3933-minimum-jumps-to-reach-end-via-prime-teleportation) |
 | [3934-coupon-code-validator](https://github.com/abhishekbharti444/LeetCoding/tree/master/3934-coupon-code-validator) |
 ## Breadth-First Search
@@ -118,6 +121,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Number Theory
 |  |
 | ------- |
+| [3914-check-if-any-element-has-prime-frequency](https://github.com/abhishekbharti444/LeetCoding/tree/master/3914-check-if-any-element-has-prime-frequency) |
 | [3933-minimum-jumps-to-reach-end-via-prime-teleportation](https://github.com/abhishekbharti444/LeetCoding/tree/master/3933-minimum-jumps-to-reach-end-via-prime-teleportation) |
 | [3936-split-array-by-prime-indices](https://github.com/abhishekbharti444/LeetCoding/tree/master/3936-split-array-by-prime-indices) |
 ## String
@@ -239,4 +243,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [3902-maximize-spanning-tree-stability-with-upgrades](https://github.com/abhishekbharti444/LeetCoding/tree/master/3902-maximize-spanning-tree-stability-with-upgrades) |
+## Counting
+|  |
+| ------- |
+| [3914-check-if-any-element-has-prime-frequency](https://github.com/abhishekbharti444/LeetCoding/tree/master/3914-check-if-any-element-has-prime-frequency) |
 <!---LeetCode Topics End-->
