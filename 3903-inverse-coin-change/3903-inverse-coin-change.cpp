@@ -32,6 +32,8 @@ public:
             res.push_back(i);
             
             // Remove this coin's contribution from all amounts j >= i
+            // Reverse iteration ensures we always use original dp[j-i] values, not modified ones. 
+            // This is the same principle used in the knapsack problem's space optimization.
             for (int j = n; j >= i; --j) {
                 // Reverse DP: subtract ways that used coin i
                 dp[j] -= dp[j-i];
