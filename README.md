@@ -19,6 +19,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [3863-power-grid-maintenance](https://github.com/abhishekbharti444/LeetCoding/tree/master/3863-power-grid-maintenance) |
 | [3886-count-number-of-trapezoids-i](https://github.com/abhishekbharti444/LeetCoding/tree/master/3886-count-number-of-trapezoids-i) |
 | [3903-inverse-coin-change](https://github.com/abhishekbharti444/LeetCoding/tree/master/3903-inverse-coin-change) |
+| [3909-minimum-increments-to-equalize-leaf-paths](https://github.com/abhishekbharti444/LeetCoding/tree/master/3909-minimum-increments-to-equalize-leaf-paths) |
 | [3913-partition-array-to-minimize-xor](https://github.com/abhishekbharti444/LeetCoding/tree/master/3913-partition-array-to-minimize-xor) |
 | [3914-check-if-any-element-has-prime-frequency](https://github.com/abhishekbharti444/LeetCoding/tree/master/3914-check-if-any-element-has-prime-frequency) |
 | [3919-network-recovery-pathways](https://github.com/abhishekbharti444/LeetCoding/tree/master/3919-network-recovery-pathways) |
@@ -39,6 +40,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0322-coin-change](https://github.com/abhishekbharti444/LeetCoding/tree/master/0322-coin-change) |
 | [0518-coin-change-ii](https://github.com/abhishekbharti444/LeetCoding/tree/master/0518-coin-change-ii) |
 | [3903-inverse-coin-change](https://github.com/abhishekbharti444/LeetCoding/tree/master/3903-inverse-coin-change) |
+| [3909-minimum-increments-to-equalize-leaf-paths](https://github.com/abhishekbharti444/LeetCoding/tree/master/3909-minimum-increments-to-equalize-leaf-paths) |
 | [3913-partition-array-to-minimize-xor](https://github.com/abhishekbharti444/LeetCoding/tree/master/3913-partition-array-to-minimize-xor) |
 | [3919-network-recovery-pathways](https://github.com/abhishekbharti444/LeetCoding/tree/master/3919-network-recovery-pathways) |
 | [3927-minimum-cost-path-with-alternating-directions-ii](https://github.com/abhishekbharti444/LeetCoding/tree/master/3927-minimum-cost-path-with-alternating-directions-ii) |
@@ -168,6 +170,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [3823-count-islands-with-total-value-divisible-by-k](https://github.com/abhishekbharti444/LeetCoding/tree/master/3823-count-islands-with-total-value-divisible-by-k) |
 | [3863-power-grid-maintenance](https://github.com/abhishekbharti444/LeetCoding/tree/master/3863-power-grid-maintenance) |
+| [3909-minimum-increments-to-equalize-leaf-paths](https://github.com/abhishekbharti444/LeetCoding/tree/master/3909-minimum-increments-to-equalize-leaf-paths) |
 ## Union Find
 |  |
 | ------- |
@@ -254,4 +257,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [3914-check-if-any-element-has-prime-frequency](https://github.com/abhishekbharti444/LeetCoding/tree/master/3914-check-if-any-element-has-prime-frequency) |
+## Tree
+|  |
+| ------- |
+| [3909-minimum-increments-to-equalize-leaf-paths](https://github.com/abhishekbharti444/LeetCoding/tree/master/3909-minimum-increments-to-equalize-leaf-paths) |
 <!---LeetCode Topics End-->
