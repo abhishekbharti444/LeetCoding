@@ -21,19 +21,38 @@ public:
 
 class Solution {
 public:
-    map<Node*, Node*> mp;
+    /*
+    Approach Summary:
+    1. Use DFS with memoization to clone each node exactly once
+    2. Store original->clone mapping before processing neighbors to handle cycles
+    3. For each neighbor, recursively clone and add to current clone's neighbor list
+    4. Return existing clone if node already processed (prevents infinite recursion)
+    */
     
-    Node* formGraph(Node* node) {
-        if (!node) return node;
-        if (mp.find(node) != mp.end()) return mp[node];
-        Node* root = new Node(node->val);
-        mp[node] = root;
-        for (int i = 0; i < node->neighbors.size(); ++i) {
-            root->neighbors.push_back(formGraph(node->neighbors[i]));
+    map<Node*, Node*> cloned; // Maps original node to its clone
+    
+    Node* util(Node* node) {
+        if (!node) return nullptr;
+        
+        // Check if node already cloned to avoid cycles and duplicates
+        if (cloned.contains(node)) return cloned[node];
+        
+        // Create clone with same value
+        Node* new_node = new Node(node->val);
+        
+        // Store mapping BEFORE processing neighbors (crucial for cycle handling)
+        cloned[node] = new_node;
+        
+        // Recursively clone all neighbors and add to clone's neighbor list
+        for (auto& next: node->neighbors) {
+            Node* new_next = util(next);
+            new_node->neighbors.push_back(new_next);
         }
-        return root;
+        
+        return new_node;
     }
+    
     Node* cloneGraph(Node* node) {
-        return formGraph(node);
+        return util(node);
     }
 };
