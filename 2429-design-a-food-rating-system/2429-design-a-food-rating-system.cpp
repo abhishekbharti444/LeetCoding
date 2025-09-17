@@ -1,5 +1,16 @@
 class FoodRatings {
 public:
+    /*
+        Approach : Inspired by vortubac's solution. https://leetcode.com/problems/design-a-food-rating-system/discuss/2324669/Three-Maps
+            1. cuisine_ratings maps cuisine to food, ordered by rating (we use a sorted set).
+            2. food_cuisine maps food to cuisine.
+            3. food_ratings maps food to the current rating.
+            4. For the changeRating operation, we first get the cuisine and current rating for the food.
+            5. Then, we remove the old food rating from cuisine_ratings, and add the new one.
+
+            Implementation note: since we need to return food with the highest rating, we put a negative rating into the set.
+            That way, we do not have to provide a custom comparator.
+    */ 
     unordered_map<string, set<pair<int, string>>> cuisine_rating;
     unordered_map<string, string> food_cuisine;
     unordered_map<string, int> food_rating;
