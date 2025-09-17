@@ -129,6 +129,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0133-clone-graph](https://github.com/abhishekbharti444/LeetCoding/tree/master/0133-clone-graph) |
+| [0208-implement-trie-prefix-tree](https://github.com/abhishekbharti444/LeetCoding/tree/master/0208-implement-trie-prefix-tree) |
 | [2429-design-a-food-rating-system](https://github.com/abhishekbharti444/LeetCoding/tree/master/2429-design-a-food-rating-system) |
 | [3863-power-grid-maintenance](https://github.com/abhishekbharti444/LeetCoding/tree/master/3863-power-grid-maintenance) |
 | [3868-find-maximum-area-of-a-triangle](https://github.com/abhishekbharti444/LeetCoding/tree/master/3868-find-maximum-area-of-a-triangle) |
@@ -156,6 +157,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0005-longest-palindromic-substring](https://github.com/abhishekbharti444/LeetCoding/tree/master/0005-longest-palindromic-substring) |
+| [0208-implement-trie-prefix-tree](https://github.com/abhishekbharti444/LeetCoding/tree/master/0208-implement-trie-prefix-tree) |
 | [2429-design-a-food-rating-system](https://github.com/abhishekbharti444/LeetCoding/tree/master/2429-design-a-food-rating-system) |
 | [3800-longest-common-prefix-between-adjacent-strings-after-removals](https://github.com/abhishekbharti444/LeetCoding/tree/master/3800-longest-common-prefix-between-adjacent-strings-after-removals) |
 | [3905-partition-string](https://github.com/abhishekbharti444/LeetCoding/tree/master/3905-partition-string) |
@@ -239,6 +241,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Trie
 |  |
 | ------- |
+| [0208-implement-trie-prefix-tree](https://github.com/abhishekbharti444/LeetCoding/tree/master/0208-implement-trie-prefix-tree) |
 | [3905-partition-string](https://github.com/abhishekbharti444/LeetCoding/tree/master/3905-partition-string) |
 ## Divide and Conquer
 |  |
@@ -250,6 +253,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Design
 |  |
 | ------- |
+| [0208-implement-trie-prefix-tree](https://github.com/abhishekbharti444/LeetCoding/tree/master/0208-implement-trie-prefix-tree) |
 | [0307-range-sum-query-mutable](https://github.com/abhishekbharti444/LeetCoding/tree/master/0307-range-sum-query-mutable) |
 | [2429-design-a-food-rating-system](https://github.com/abhishekbharti444/LeetCoding/tree/master/2429-design-a-food-rating-system) |
 ## Binary Indexed Tree
