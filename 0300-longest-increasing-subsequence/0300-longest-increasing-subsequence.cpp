@@ -1,15 +1,18 @@
 class Solution {
 public:
     int lengthOfLIS(vector<int>& nums) {
+        vector<int> vec;
         int n = nums.size();
-        vector<int> dp(n, 1);
+        vec.push_back(nums[0]);
         for (int i = 1; i < n; ++i) {
-            for (int j = 0; j < i; ++j) {
-                if (nums[i] > nums[j]) {
-                    dp[i] = max(dp[i], 1 + dp[j]);
-                }
+            int last = vec.back();
+            if (nums[i] > last) vec.push_back(nums[i]);
+            else {
+                // Find nums[i] location in vec with binary search and replace it with new val
+                int index = lower_bound(vec.begin(), vec.end(), nums[i]) - vec.begin();
+                vec[index] = nums[i];
             }
         }
-        return *max_element(dp.begin(), dp.end());
+        return vec.size();
     }
 };
