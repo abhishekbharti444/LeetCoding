@@ -38,6 +38,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Dynamic Programming
 |  |
 | ------- |
+| [0005-longest-palindromic-substring](https://github.com/abhishekbharti444/LeetCoding/tree/master/0005-longest-palindromic-substring) |
 | [0322-coin-change](https://github.com/abhishekbharti444/LeetCoding/tree/master/0322-coin-change) |
 | [0518-coin-change-ii](https://github.com/abhishekbharti444/LeetCoding/tree/master/0518-coin-change-ii) |
 | [3903-inverse-coin-change](https://github.com/abhishekbharti444/LeetCoding/tree/master/3903-inverse-coin-change) |
@@ -81,6 +82,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Two Pointers
 |  |
 | ------- |
+| [0005-longest-palindromic-substring](https://github.com/abhishekbharti444/LeetCoding/tree/master/0005-longest-palindromic-substring) |
 | [3965-earliest-finish-time-for-land-and-water-rides-i](https://github.com/abhishekbharti444/LeetCoding/tree/master/3965-earliest-finish-time-for-land-and-water-rides-i) |
 | [3967-earliest-finish-time-for-land-and-water-rides-ii](https://github.com/abhishekbharti444/LeetCoding/tree/master/3967-earliest-finish-time-for-land-and-water-rides-ii) |
 ## Sorting
@@ -138,6 +140,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## String
 |  |
 | ------- |
+| [0005-longest-palindromic-substring](https://github.com/abhishekbharti444/LeetCoding/tree/master/0005-longest-palindromic-substring) |
 | [2429-design-a-food-rating-system](https://github.com/abhishekbharti444/LeetCoding/tree/master/2429-design-a-food-rating-system) |
 | [3800-longest-common-prefix-between-adjacent-strings-after-removals](https://github.com/abhishekbharti444/LeetCoding/tree/master/3800-longest-common-prefix-between-adjacent-strings-after-removals) |
 | [3905-partition-string](https://github.com/abhishekbharti444/LeetCoding/tree/master/3905-partition-string) |
