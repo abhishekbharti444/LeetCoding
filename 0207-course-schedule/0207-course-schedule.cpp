@@ -1,39 +1,30 @@
 class Solution {
 public:
-    
-    vector<bool> vis;
-    vector<bool> curr;
-    
-    int n; 
-    vector<vector<int>> pre;
     unordered_map<int, vector<int>> g;
-    
-    
-    bool util(int index) {
-        if (curr[index]) return false;
-        if (vis[index]) return true;
-        
-        vis[index] = true;
-        curr[index] = true;
-        bool res = true;
-        for (auto& a : g[index]) {
-            if (!util(a)) return false;
-            // res = res && util(a);
+    vector<int> curr, vis;
+    int n;
+    bool util(int node) {
+        if (curr[node] == 1) return false;
+        if (vis[node] == 1) return true;
+
+        curr[node] = 1;
+        vis[node] = 1;
+        for (int i = 0; i < g[node].size(); ++i) {
+            if (util(g[node][i]) == false) return false;
         }
-        curr[index] = false;
+        curr[node] = 0;
         return true;
     }
-    bool canFinish(int numCourses, vector<vector<int>>& prerequisites) {
+    bool canFinish(int numCourses, vector<vector<int>>& pre) {
         n = numCourses;
-        pre = prerequisites;
-        vis = vector<bool> (n, false);
-        curr = vis;
-        for (int i = 0; i < pre.size(); i++) {
+        curr.resize(n, 0);
+        vis.resize(n, 0);
+        for (int i = 0; i < pre.size(); ++i) {
             g[pre[i][1]].push_back(pre[i][0]);
         }
-        for (int i = 0; i < n; ++i) {
-            // vis = vector<bool> (n, false); 
-            if (!util(i)) return false;
+
+        for (int i = 0; i < n; i++) {
+            if (util(i) == false) return false;
         }
         return true;
     }
