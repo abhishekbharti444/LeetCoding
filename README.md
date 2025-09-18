@@ -7,6 +7,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0054-spiral-matrix](https://github.com/abhishekbharti444/LeetCoding/tree/master/0054-spiral-matrix) |
+| [0079-word-search](https://github.com/abhishekbharti444/LeetCoding/tree/master/0079-word-search) |
 | [0300-longest-increasing-subsequence](https://github.com/abhishekbharti444/LeetCoding/tree/master/0300-longest-increasing-subsequence) |
 | [0307-range-sum-query-mutable](https://github.com/abhishekbharti444/LeetCoding/tree/master/0307-range-sum-query-mutable) |
 | [0315-count-of-smaller-numbers-after-self](https://github.com/abhishekbharti444/LeetCoding/tree/master/0315-count-of-smaller-numbers-after-self) |
@@ -158,6 +159,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0005-longest-palindromic-substring](https://github.com/abhishekbharti444/LeetCoding/tree/master/0005-longest-palindromic-substring) |
+| [0079-word-search](https://github.com/abhishekbharti444/LeetCoding/tree/master/0079-word-search) |
 | [0208-implement-trie-prefix-tree](https://github.com/abhishekbharti444/LeetCoding/tree/master/0208-implement-trie-prefix-tree) |
 | [0677-map-sum-pairs](https://github.com/abhishekbharti444/LeetCoding/tree/master/0677-map-sum-pairs) |
 | [2429-design-a-food-rating-system](https://github.com/abhishekbharti444/LeetCoding/tree/master/2429-design-a-food-rating-system) |
@@ -182,6 +184,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0054-spiral-matrix](https://github.com/abhishekbharti444/LeetCoding/tree/master/0054-spiral-matrix) |
+| [0079-word-search](https://github.com/abhishekbharti444/LeetCoding/tree/master/0079-word-search) |
 | [3823-count-islands-with-total-value-divisible-by-k](https://github.com/abhishekbharti444/LeetCoding/tree/master/3823-count-islands-with-total-value-divisible-by-k) |
 | [3927-minimum-cost-path-with-alternating-directions-ii](https://github.com/abhishekbharti444/LeetCoding/tree/master/3927-minimum-cost-path-with-alternating-directions-ii) |
 ## Simulation
@@ -194,6 +197,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Depth-First Search
 |  |
 | ------- |
+| [0079-word-search](https://github.com/abhishekbharti444/LeetCoding/tree/master/0079-word-search) |
 | [0133-clone-graph](https://github.com/abhishekbharti444/LeetCoding/tree/master/0133-clone-graph) |
 | [3823-count-islands-with-total-value-divisible-by-k](https://github.com/abhishekbharti444/LeetCoding/tree/master/3823-count-islands-with-total-value-divisible-by-k) |
 | [3863-power-grid-maintenance](https://github.com/abhishekbharti444/LeetCoding/tree/master/3863-power-grid-maintenance) |
@@ -308,4 +312,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [3907-count-prime-gap-balanced-subarrays](https://github.com/abhishekbharti444/LeetCoding/tree/master/3907-count-prime-gap-balanced-subarrays) |
+## Backtracking
+|  |
+| ------- |
+| [0079-word-search](https://github.com/abhishekbharti444/LeetCoding/tree/master/0079-word-search) |
 <!---LeetCode Topics End-->
