@@ -1,5 +1,15 @@
 class Solution {
 public:
+/*
+Approach:
+1. Use DFS with memoization (DP) to find the longest increasing path
+2. For each cell, explore all 4 directions and only move if next cell has larger value
+3. Cache results to avoid recomputing same paths
+4. Return maximum path length found from any starting position
+
+Time Complexity: O(m*n) - Each cell is computed once and cached
+Space Complexity: O(m*n) - For the DP memoization array
+*/
     vector<vector<int>> mat;
     int m, n;
     vector<int> dx = {0, 0, -1, 1};
