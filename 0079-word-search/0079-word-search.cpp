@@ -1,47 +1,35 @@
 class Solution {
 public:
-    
     vector<vector<char>> b;
-    string w;
-    
     vector<int> dx = {0, 0, -1, 1};
     vector<int> dy = {1, -1, 0, 0};
-    int len; 
+    int len;
+    string target;
     int m, n;
-    vector<vector<int>> vis;
-    bool isValid(int x, int y, int m, int n) {
-        return x >= 0 && x < m && y >= 0 && y < n;
+    bool isValid(int x, int y) {
+        return x >= 0 && y >=0 && x < m && y < n;
     }
-    
-    bool util(int x, int y, int index) {
+    bool dfsUtil(int x, int y, int index, vector<vector<bool>>& vis) {
         if (index == len) return true;
-        if (index == len - 1) return b[x][y] == w[index];
-        if (b[x][y] != w[index]) return false;
-        
-
-        char ch = b[x][y];
-        b[x][y] = '@';
+        if (!isValid(x, y) || vis[x][y] || b[x][y] != target[index]) return false;
+        vis[x][y] = true;
         bool res = false;
-        for (int i = 0; i < 4; ++i) {
-            int row = x + dx[i];
-            int col = y + dy[i];
-            if (isValid(row, col, m, n) && b[row][col] != '@') res = res || util(row, col, index + 1);
+        for (int i = 0; i < 4; i++) {
+            res = res || dfsUtil(x + dx[i], y + dy[i], index + 1, vis);
         }
-        b[x][y] = ch;
+        vis[x][y] = false;
         return res;
     }
-    
-    
     bool exist(vector<vector<char>>& board, string word) {
+        target = word;
         b = board;
-        w = word;
+        len = target.size();
         m = b.size();
         n = b[0].size();
-        len = w.size();
-        
         for (int i = 0; i < m; ++i) {
             for (int j = 0; j < n; ++j) {
-                if (util(i, j, 0)) return true;
+                vector<vector<bool>> vis(m, vector<bool> (n, false));
+                if (dfsUtil(i, j, 0, vis)) return true;
             }
         }
         return false;
