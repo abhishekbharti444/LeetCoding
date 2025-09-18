@@ -1,41 +1,34 @@
 class Solution {
 public:
-    
-    vector<bool> vis;
-    vector<bool> curr;
-    int n;
-    unordered_map<int, vector<int>> pre;
-    stack<int> st;
-    bool util(int index) {
-        if (curr[index]) return false;
-        if (vis[index]) return true;
-        vis[index] = true;
-        curr[index] = true;
-        bool flag = true;
-        for (auto& a : pre[index]) flag = flag && util(a);
-        st.push(index);
-        curr[index] = false;
-        return flag;
-    }
-    
-    vector<int> findOrder(int numCourses, vector<vector<int>>& prerequisites) {
-        int len = prerequisites.size();
-        n = numCourses;
-        for (int i = 0; i < len; ++i) pre[prerequisites[i][1]].push_back(prerequisites[i][0]);
-        
-        vis = vector<bool> (n, false);
-        curr = vector<bool> (n, false);
-        
+    vector<int> findOrder(int numCourses, vector<vector<int>>& prereq) {
+        int n = numCourses;
+        vector<int> indeg(n, 0);
+        unordered_map<int, vector<int>> g;
+        vector<int> res;
+        for (int i = 0; i < prereq.size(); ++i) {
+            g[prereq[i][1]].push_back(prereq[i][0]);
+            indeg[prereq[i][0]]++;
+        }
+        queue<int> q;
         for (int i = 0; i < n; ++i) {
-            if (!util(i)) {
-                return {};
+            if (indeg[i] == 0) q.push(i);
+        }
+        int count = 0;
+        while (!q.empty()) {
+            int k = q.size();
+            for (int i = 0; i < k; ++i) {
+                int front = q.front();
+                q.pop();
+                res.push_back(front);
+                count++;
+
+                for (auto el: g[front]) {
+                    indeg[el]--;
+                    if (indeg[el] == 0) q.push(el);
+                }
             }
         }
-        vector<int> res;
-        while (!st.empty()) {
-            res.push_back(st.top());
-            st.pop();
-        }
+        if (count < n) return {};
         return res;
     }
 };
