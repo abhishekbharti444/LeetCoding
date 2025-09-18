@@ -1,30 +1,32 @@
 class Solution {
 public:
-    unordered_map<int, vector<int>> g;
     vector<int> curr, vis;
     int n;
-    bool util(int node) {
+    unordered_map<int, vector<int>> g;
+    bool dfsUtil(int node) {
         if (curr[node] == 1) return false;
         if (vis[node] == 1) return true;
-
-        curr[node] = 1;
         vis[node] = 1;
+        curr[node] = 1;
+        bool res = true;
         for (int i = 0; i < g[node].size(); ++i) {
-            if (util(g[node][i]) == false) return false;
+            res = res && dfsUtil(g[node][i]);
         }
         curr[node] = 0;
-        return true;
+        return res;
     }
     bool canFinish(int numCourses, vector<vector<int>>& pre) {
         n = numCourses;
-        curr.resize(n, 0);
-        vis.resize(n, 0);
         for (int i = 0; i < pre.size(); ++i) {
-            g[pre[i][1]].push_back(pre[i][0]);
+            g[pre[i][0]].push_back(pre[i][1]);
         }
 
-        for (int i = 0; i < n; i++) {
-            if (util(i) == false) return false;
+        curr.resize(n, 0);
+        vis.resize(n, 0);
+        for (int i = 0; i < n; ++i) {
+            if (vis[i] == 0 && !dfsUtil(i)) {
+                return false;
+            }
         }
         return true;
     }
