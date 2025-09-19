@@ -1,26 +1,29 @@
 class Solution {
 public:
+    vector<int> A;
+    int n;
+    int target;
     vector<vector<int>> memo;
-    bool util(vector<int>& nums, int target, int curr_sum, int index) {
-        if (index == nums.size()) return false;
-        if (curr_sum >= target) {
-            if (curr_sum == target) return true;
-            return false;
-        }
-        if (memo[curr_sum][index] != -1) return memo[curr_sum][index] == 1 ? true : false;
-        bool choose = util(nums, target, curr_sum + nums[index], index + 1);
-        bool no_choose = util(nums, target, curr_sum, index + 1);
-        bool res = choose || no_choose;
-        memo[curr_sum][index] = res == true ? 1 : 0;
-        return res;
+    bool util(int curr_sum, int index) {
+        if (curr_sum > target || index >= n) return false;
+        if (curr_sum == target) return true;
+
+        if (memo[curr_sum][index] != -1) return memo[curr_sum][index] == 1;
+        // Skip this index
+        bool skip_case = util(curr_sum, index + 1);
+
+        // Add to the curr_sum
+        bool use_case = util(curr_sum + A[index], index + 1);
+        memo[curr_sum][index] = skip_case || use_case;
+        return memo[curr_sum][index];
     }
-    
     bool canPartition(vector<int>& nums) {
-        int total_sum = accumulate(nums.begin(), nums.end(), 0);
-        if (total_sum % 2 != 0) return false;
-        
-        int target = total_sum/2;
-        memo = vector<vector<int>> (target + 1, vector<int> (nums.size(), -1));
-        return util(nums, target, 0, 0);
+        A = nums;
+        n = A.size();
+        int total = accumulate(nums.begin(), nums.end(), 0);
+        if (total % 2 != 0) return false;
+        target = total/2;
+        memo.resize(target + 1, vector<int> (n, -1));
+        return util(0, 0);
     }
 };
