@@ -7,6 +7,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0054-spiral-matrix](https://github.com/abhishekbharti444/LeetCoding/tree/master/0054-spiral-matrix) |
+| [0078-subsets](https://github.com/abhishekbharti444/LeetCoding/tree/master/0078-subsets) |
 | [0079-word-search](https://github.com/abhishekbharti444/LeetCoding/tree/master/0079-word-search) |
 | [0212-word-search-ii](https://github.com/abhishekbharti444/LeetCoding/tree/master/0212-word-search-ii) |
 | [0300-longest-increasing-subsequence](https://github.com/abhishekbharti444/LeetCoding/tree/master/0300-longest-increasing-subsequence) |
@@ -306,6 +307,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Bit Manipulation
 |  |
 | ------- |
+| [0078-subsets](https://github.com/abhishekbharti444/LeetCoding/tree/master/0078-subsets) |
 | [3913-partition-array-to-minimize-xor](https://github.com/abhishekbharti444/LeetCoding/tree/master/3913-partition-array-to-minimize-xor) |
 ## Minimum Spanning Tree
 |  |
@@ -334,6 +336,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Backtracking
 |  |
 | ------- |
+| [0078-subsets](https://github.com/abhishekbharti444/LeetCoding/tree/master/0078-subsets) |
 | [0079-word-search](https://github.com/abhishekbharti444/LeetCoding/tree/master/0079-word-search) |
 | [0212-word-search-ii](https://github.com/abhishekbharti444/LeetCoding/tree/master/0212-word-search-ii) |
 ## Memoization
