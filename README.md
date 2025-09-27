@@ -12,6 +12,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0054-spiral-matrix](https://github.com/abhishekbharti444/LeetCoding/tree/master/0054-spiral-matrix) |
 | [0078-subsets](https://github.com/abhishekbharti444/LeetCoding/tree/master/0078-subsets) |
 | [0079-word-search](https://github.com/abhishekbharti444/LeetCoding/tree/master/0079-word-search) |
+| [0120-triangle](https://github.com/abhishekbharti444/LeetCoding/tree/master/0120-triangle) |
 | [0152-maximum-product-subarray](https://github.com/abhishekbharti444/LeetCoding/tree/master/0152-maximum-product-subarray) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/abhishekbharti444/LeetCoding/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0212-word-search-ii](https://github.com/abhishekbharti444/LeetCoding/tree/master/0212-word-search-ii) |
@@ -54,6 +55,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0005-longest-palindromic-substring](https://github.com/abhishekbharti444/LeetCoding/tree/master/0005-longest-palindromic-substring) |
 | [0053-maximum-subarray](https://github.com/abhishekbharti444/LeetCoding/tree/master/0053-maximum-subarray) |
+| [0120-triangle](https://github.com/abhishekbharti444/LeetCoding/tree/master/0120-triangle) |
 | [0152-maximum-product-subarray](https://github.com/abhishekbharti444/LeetCoding/tree/master/0152-maximum-product-subarray) |
 | [0300-longest-increasing-subsequence](https://github.com/abhishekbharti444/LeetCoding/tree/master/0300-longest-increasing-subsequence) |
 | [0322-coin-change](https://github.com/abhishekbharti444/LeetCoding/tree/master/0322-coin-change) |
