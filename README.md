@@ -24,6 +24,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0329-longest-increasing-path-in-a-matrix](https://github.com/abhishekbharti444/LeetCoding/tree/master/0329-longest-increasing-path-in-a-matrix) |
 | [0416-partition-equal-subset-sum](https://github.com/abhishekbharti444/LeetCoding/tree/master/0416-partition-equal-subset-sum) |
 | [0518-coin-change-ii](https://github.com/abhishekbharti444/LeetCoding/tree/master/0518-coin-change-ii) |
+| [1111-minimum-score-triangulation-of-polygon](https://github.com/abhishekbharti444/LeetCoding/tree/master/1111-minimum-score-triangulation-of-polygon) |
 | [1772-create-sorted-array-through-instructions](https://github.com/abhishekbharti444/LeetCoding/tree/master/1772-create-sorted-array-through-instructions) |
 | [2429-design-a-food-rating-system](https://github.com/abhishekbharti444/LeetCoding/tree/master/2429-design-a-food-rating-system) |
 | [3766-maximum-median-sum-of-subsequences-of-size-3](https://github.com/abhishekbharti444/LeetCoding/tree/master/3766-maximum-median-sum-of-subsequences-of-size-3) |
@@ -62,6 +63,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0329-longest-increasing-path-in-a-matrix](https://github.com/abhishekbharti444/LeetCoding/tree/master/0329-longest-increasing-path-in-a-matrix) |
 | [0416-partition-equal-subset-sum](https://github.com/abhishekbharti444/LeetCoding/tree/master/0416-partition-equal-subset-sum) |
 | [0518-coin-change-ii](https://github.com/abhishekbharti444/LeetCoding/tree/master/0518-coin-change-ii) |
+| [1111-minimum-score-triangulation-of-polygon](https://github.com/abhishekbharti444/LeetCoding/tree/master/1111-minimum-score-triangulation-of-polygon) |
 | [3903-inverse-coin-change](https://github.com/abhishekbharti444/LeetCoding/tree/master/3903-inverse-coin-change) |
 | [3909-minimum-increments-to-equalize-leaf-paths](https://github.com/abhishekbharti444/LeetCoding/tree/master/3909-minimum-increments-to-equalize-leaf-paths) |
 | [3913-partition-array-to-minimize-xor](https://github.com/abhishekbharti444/LeetCoding/tree/master/3913-partition-array-to-minimize-xor) |
