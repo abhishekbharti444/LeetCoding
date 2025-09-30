@@ -26,6 +26,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0518-coin-change-ii](https://github.com/abhishekbharti444/LeetCoding/tree/master/0518-coin-change-ii) |
 | [1111-minimum-score-triangulation-of-polygon](https://github.com/abhishekbharti444/LeetCoding/tree/master/1111-minimum-score-triangulation-of-polygon) |
 | [1772-create-sorted-array-through-instructions](https://github.com/abhishekbharti444/LeetCoding/tree/master/1772-create-sorted-array-through-instructions) |
+| [2324-find-triangular-sum-of-an-array](https://github.com/abhishekbharti444/LeetCoding/tree/master/2324-find-triangular-sum-of-an-array) |
 | [2429-design-a-food-rating-system](https://github.com/abhishekbharti444/LeetCoding/tree/master/2429-design-a-food-rating-system) |
 | [3766-maximum-median-sum-of-subsequences-of-size-3](https://github.com/abhishekbharti444/LeetCoding/tree/master/3766-maximum-median-sum-of-subsequences-of-size-3) |
 | [3800-longest-common-prefix-between-adjacent-strings-after-removals](https://github.com/abhishekbharti444/LeetCoding/tree/master/3800-longest-common-prefix-between-adjacent-strings-after-removals) |
@@ -131,6 +132,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Math
 |  |
 | ------- |
+| [2324-find-triangular-sum-of-an-array](https://github.com/abhishekbharti444/LeetCoding/tree/master/2324-find-triangular-sum-of-an-array) |
 | [3766-maximum-median-sum-of-subsequences-of-size-3](https://github.com/abhishekbharti444/LeetCoding/tree/master/3766-maximum-median-sum-of-subsequences-of-size-3) |
 | [3868-find-maximum-area-of-a-triangle](https://github.com/abhishekbharti444/LeetCoding/tree/master/3868-find-maximum-area-of-a-triangle) |
 | [3886-count-number-of-trapezoids-i](https://github.com/abhishekbharti444/LeetCoding/tree/master/3886-count-number-of-trapezoids-i) |
@@ -217,6 +219,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0054-spiral-matrix](https://github.com/abhishekbharti444/LeetCoding/tree/master/0054-spiral-matrix) |
+| [2324-find-triangular-sum-of-an-array](https://github.com/abhishekbharti444/LeetCoding/tree/master/2324-find-triangular-sum-of-an-array) |
 | [3905-partition-string](https://github.com/abhishekbharti444/LeetCoding/tree/master/3905-partition-string) |
 | [3931-process-string-with-special-operations-i](https://github.com/abhishekbharti444/LeetCoding/tree/master/3931-process-string-with-special-operations-i) |
 | [3939-process-string-with-special-operations-ii](https://github.com/abhishekbharti444/LeetCoding/tree/master/3939-process-string-with-special-operations-ii) |
@@ -360,4 +363,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0329-longest-increasing-path-in-a-matrix](https://github.com/abhishekbharti444/LeetCoding/tree/master/0329-longest-increasing-path-in-a-matrix) |
+## Combinatorics
+|  |
+| ------- |
+| [2324-find-triangular-sum-of-an-array](https://github.com/abhishekbharti444/LeetCoding/tree/master/2324-find-triangular-sum-of-an-array) |
 <!---LeetCode Topics End-->
