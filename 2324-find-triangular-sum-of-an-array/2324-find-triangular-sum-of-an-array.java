@@ -3,7 +3,7 @@ class Solution {
         int n = nums.length;
         if (n == 1) return nums[0];
         Queue<Integer> q = new LinkedList<>();
-        for (int i = 1; i < n; ++i) {
+        for (int i = 0; i < n; ++i) {
             q.offer(nums[i]);
         }
         while (q.size() > 1) {
