@@ -136,6 +136,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [1642-water-bottles](https://github.com/abhishekbharti444/LeetCoding/tree/master/1642-water-bottles) |
 | [2324-find-triangular-sum-of-an-array](https://github.com/abhishekbharti444/LeetCoding/tree/master/2324-find-triangular-sum-of-an-array) |
+| [3336-water-bottles-ii](https://github.com/abhishekbharti444/LeetCoding/tree/master/3336-water-bottles-ii) |
 | [3766-maximum-median-sum-of-subsequences-of-size-3](https://github.com/abhishekbharti444/LeetCoding/tree/master/3766-maximum-median-sum-of-subsequences-of-size-3) |
 | [3868-find-maximum-area-of-a-triangle](https://github.com/abhishekbharti444/LeetCoding/tree/master/3868-find-maximum-area-of-a-triangle) |
 | [3886-count-number-of-trapezoids-i](https://github.com/abhishekbharti444/LeetCoding/tree/master/3886-count-number-of-trapezoids-i) |
@@ -224,6 +225,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0054-spiral-matrix](https://github.com/abhishekbharti444/LeetCoding/tree/master/0054-spiral-matrix) |
 | [1642-water-bottles](https://github.com/abhishekbharti444/LeetCoding/tree/master/1642-water-bottles) |
 | [2324-find-triangular-sum-of-an-array](https://github.com/abhishekbharti444/LeetCoding/tree/master/2324-find-triangular-sum-of-an-array) |
+| [3336-water-bottles-ii](https://github.com/abhishekbharti444/LeetCoding/tree/master/3336-water-bottles-ii) |
 | [3905-partition-string](https://github.com/abhishekbharti444/LeetCoding/tree/master/3905-partition-string) |
 | [3931-process-string-with-special-operations-i](https://github.com/abhishekbharti444/LeetCoding/tree/master/3931-process-string-with-special-operations-i) |
 | [3939-process-string-with-special-operations-ii](https://github.com/abhishekbharti444/LeetCoding/tree/master/3939-process-string-with-special-operations-ii) |
