@@ -30,6 +30,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1111-minimum-score-triangulation-of-polygon](https://github.com/abhishekbharti444/LeetCoding/tree/master/1111-minimum-score-triangulation-of-polygon) |
 | [1772-create-sorted-array-through-instructions](https://github.com/abhishekbharti444/LeetCoding/tree/master/1772-create-sorted-array-through-instructions) |
 | [2324-find-triangular-sum-of-an-array](https://github.com/abhishekbharti444/LeetCoding/tree/master/2324-find-triangular-sum-of-an-array) |
+| [2392-successful-pairs-of-spells-and-potions](https://github.com/abhishekbharti444/LeetCoding/tree/master/2392-successful-pairs-of-spells-and-potions) |
 | [2429-design-a-food-rating-system](https://github.com/abhishekbharti444/LeetCoding/tree/master/2429-design-a-food-rating-system) |
 | [3766-maximum-median-sum-of-subsequences-of-size-3](https://github.com/abhishekbharti444/LeetCoding/tree/master/3766-maximum-median-sum-of-subsequences-of-size-3) |
 | [3800-longest-common-prefix-between-adjacent-strings-after-removals](https://github.com/abhishekbharti444/LeetCoding/tree/master/3800-longest-common-prefix-between-adjacent-strings-after-removals) |
@@ -107,6 +108,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0327-count-of-range-sum](https://github.com/abhishekbharti444/LeetCoding/tree/master/0327-count-of-range-sum) |
 | [0794-swim-in-rising-water](https://github.com/abhishekbharti444/LeetCoding/tree/master/0794-swim-in-rising-water) |
 | [1772-create-sorted-array-through-instructions](https://github.com/abhishekbharti444/LeetCoding/tree/master/1772-create-sorted-array-through-instructions) |
+| [2392-successful-pairs-of-spells-and-potions](https://github.com/abhishekbharti444/LeetCoding/tree/master/2392-successful-pairs-of-spells-and-potions) |
 | [3881-minimize-maximum-component-cost](https://github.com/abhishekbharti444/LeetCoding/tree/master/3881-minimize-maximum-component-cost) |
 | [3902-maximize-spanning-tree-stability-with-upgrades](https://github.com/abhishekbharti444/LeetCoding/tree/master/3902-maximize-spanning-tree-stability-with-upgrades) |
 | [3908-minimum-time-for-k-connected-components](https://github.com/abhishekbharti444/LeetCoding/tree/master/3908-minimum-time-for-k-connected-components) |
@@ -119,11 +121,13 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0005-longest-palindromic-substring](https://github.com/abhishekbharti444/LeetCoding/tree/master/0005-longest-palindromic-substring) |
 | [0011-container-with-most-water](https://github.com/abhishekbharti444/LeetCoding/tree/master/0011-container-with-most-water) |
+| [2392-successful-pairs-of-spells-and-potions](https://github.com/abhishekbharti444/LeetCoding/tree/master/2392-successful-pairs-of-spells-and-potions) |
 | [3965-earliest-finish-time-for-land-and-water-rides-i](https://github.com/abhishekbharti444/LeetCoding/tree/master/3965-earliest-finish-time-for-land-and-water-rides-i) |
 | [3967-earliest-finish-time-for-land-and-water-rides-ii](https://github.com/abhishekbharti444/LeetCoding/tree/master/3967-earliest-finish-time-for-land-and-water-rides-ii) |
 ## Sorting
 |  |
 | ------- |
+| [2392-successful-pairs-of-spells-and-potions](https://github.com/abhishekbharti444/LeetCoding/tree/master/2392-successful-pairs-of-spells-and-potions) |
 | [3766-maximum-median-sum-of-subsequences-of-size-3](https://github.com/abhishekbharti444/LeetCoding/tree/master/3766-maximum-median-sum-of-subsequences-of-size-3) |
 | [3881-minimize-maximum-component-cost](https://github.com/abhishekbharti444/LeetCoding/tree/master/3881-minimize-maximum-component-cost) |
 | [3908-minimum-time-for-k-connected-components](https://github.com/abhishekbharti444/LeetCoding/tree/master/3908-minimum-time-for-k-connected-components) |
