@@ -86,6 +86,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0011-container-with-most-water](https://github.com/abhishekbharti444/LeetCoding/tree/master/0011-container-with-most-water) |
+| [2572-append-characters-to-string-to-make-subsequence](https://github.com/abhishekbharti444/LeetCoding/tree/master/2572-append-characters-to-string-to-make-subsequence) |
 | [3766-maximum-median-sum-of-subsequences-of-size-3](https://github.com/abhishekbharti444/LeetCoding/tree/master/3766-maximum-median-sum-of-subsequences-of-size-3) |
 | [3868-find-maximum-area-of-a-triangle](https://github.com/abhishekbharti444/LeetCoding/tree/master/3868-find-maximum-area-of-a-triangle) |
 | [3902-maximize-spanning-tree-stability-with-upgrades](https://github.com/abhishekbharti444/LeetCoding/tree/master/3902-maximize-spanning-tree-stability-with-upgrades) |
@@ -122,6 +123,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0005-longest-palindromic-substring](https://github.com/abhishekbharti444/LeetCoding/tree/master/0005-longest-palindromic-substring) |
 | [0011-container-with-most-water](https://github.com/abhishekbharti444/LeetCoding/tree/master/0011-container-with-most-water) |
 | [2392-successful-pairs-of-spells-and-potions](https://github.com/abhishekbharti444/LeetCoding/tree/master/2392-successful-pairs-of-spells-and-potions) |
+| [2572-append-characters-to-string-to-make-subsequence](https://github.com/abhishekbharti444/LeetCoding/tree/master/2572-append-characters-to-string-to-make-subsequence) |
 | [3965-earliest-finish-time-for-land-and-water-rides-i](https://github.com/abhishekbharti444/LeetCoding/tree/master/3965-earliest-finish-time-for-land-and-water-rides-i) |
 | [3967-earliest-finish-time-for-land-and-water-rides-ii](https://github.com/abhishekbharti444/LeetCoding/tree/master/3967-earliest-finish-time-for-land-and-water-rides-ii) |
 ## Sorting
@@ -203,6 +205,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0212-word-search-ii](https://github.com/abhishekbharti444/LeetCoding/tree/master/0212-word-search-ii) |
 | [0677-map-sum-pairs](https://github.com/abhishekbharti444/LeetCoding/tree/master/0677-map-sum-pairs) |
 | [2429-design-a-food-rating-system](https://github.com/abhishekbharti444/LeetCoding/tree/master/2429-design-a-food-rating-system) |
+| [2572-append-characters-to-string-to-make-subsequence](https://github.com/abhishekbharti444/LeetCoding/tree/master/2572-append-characters-to-string-to-make-subsequence) |
 | [3800-longest-common-prefix-between-adjacent-strings-after-removals](https://github.com/abhishekbharti444/LeetCoding/tree/master/3800-longest-common-prefix-between-adjacent-strings-after-removals) |
 | [3905-partition-string](https://github.com/abhishekbharti444/LeetCoding/tree/master/3905-partition-string) |
 | [3912-hexadecimal-and-hexatrigesimal-conversion](https://github.com/abhishekbharti444/LeetCoding/tree/master/3912-hexadecimal-and-hexatrigesimal-conversion) |
