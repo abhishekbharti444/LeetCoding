@@ -32,6 +32,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2324-find-triangular-sum-of-an-array](https://github.com/abhishekbharti444/LeetCoding/tree/master/2324-find-triangular-sum-of-an-array) |
 | [2392-successful-pairs-of-spells-and-potions](https://github.com/abhishekbharti444/LeetCoding/tree/master/2392-successful-pairs-of-spells-and-potions) |
 | [2429-design-a-food-rating-system](https://github.com/abhishekbharti444/LeetCoding/tree/master/2429-design-a-food-rating-system) |
+| [2691-count-vowel-strings-in-ranges](https://github.com/abhishekbharti444/LeetCoding/tree/master/2691-count-vowel-strings-in-ranges) |
 | [3766-maximum-median-sum-of-subsequences-of-size-3](https://github.com/abhishekbharti444/LeetCoding/tree/master/3766-maximum-median-sum-of-subsequences-of-size-3) |
 | [3800-longest-common-prefix-between-adjacent-strings-after-removals](https://github.com/abhishekbharti444/LeetCoding/tree/master/3800-longest-common-prefix-between-adjacent-strings-after-removals) |
 | [3823-count-islands-with-total-value-divisible-by-k](https://github.com/abhishekbharti444/LeetCoding/tree/master/3823-count-islands-with-total-value-divisible-by-k) |
@@ -206,6 +207,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0677-map-sum-pairs](https://github.com/abhishekbharti444/LeetCoding/tree/master/0677-map-sum-pairs) |
 | [2429-design-a-food-rating-system](https://github.com/abhishekbharti444/LeetCoding/tree/master/2429-design-a-food-rating-system) |
 | [2572-append-characters-to-string-to-make-subsequence](https://github.com/abhishekbharti444/LeetCoding/tree/master/2572-append-characters-to-string-to-make-subsequence) |
+| [2691-count-vowel-strings-in-ranges](https://github.com/abhishekbharti444/LeetCoding/tree/master/2691-count-vowel-strings-in-ranges) |
 | [3800-longest-common-prefix-between-adjacent-strings-after-removals](https://github.com/abhishekbharti444/LeetCoding/tree/master/3800-longest-common-prefix-between-adjacent-strings-after-removals) |
 | [3905-partition-string](https://github.com/abhishekbharti444/LeetCoding/tree/master/3905-partition-string) |
 | [3912-hexadecimal-and-hexatrigesimal-conversion](https://github.com/abhishekbharti444/LeetCoding/tree/master/3912-hexadecimal-and-hexatrigesimal-conversion) |
@@ -216,6 +218,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Prefix Sum
 |  |
 | ------- |
+| [2691-count-vowel-strings-in-ranges](https://github.com/abhishekbharti444/LeetCoding/tree/master/2691-count-vowel-strings-in-ranges) |
 | [3913-partition-array-to-minimize-xor](https://github.com/abhishekbharti444/LeetCoding/tree/master/3913-partition-array-to-minimize-xor) |
 | [3948-maximum-number-of-subsequences-after-one-inserting](https://github.com/abhishekbharti444/LeetCoding/tree/master/3948-maximum-number-of-subsequences-after-one-inserting) |
 ## Geometry
