@@ -14,7 +14,6 @@ class Solution {
                 req[i] = 1;
             }
             if (i == 0) {
-                // pre[i] = req[i];
                 pre[i+1] = req[i];
             }
             else pre[i+1] = req[i] + pre[i];
