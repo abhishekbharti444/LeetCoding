@@ -15,6 +15,7 @@ class Solution {
         for (Map.Entry<String, ArrayList<String>> entry: mp.entrySet()) {
             res.add(entry.getValue());
         }
-        return res;
+        // return res;
+        return new ArrayList<>(mp.values());
     }
 }
