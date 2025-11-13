@@ -11,10 +11,10 @@ class Solution {
             }
             mp.get(sortedStr).add(str);
         }
-        List<List<String>> res = new ArrayList<>();
-        for (Map.Entry<String, ArrayList<String>> entry: mp.entrySet()) {
-            res.add(entry.getValue());
-        }
+        // List<List<String>> res = new ArrayList<>();
+        // for (Map.Entry<String, ArrayList<String>> entry: mp.entrySet()) {
+        //     res.add(entry.getValue());
+        // }
         // return res;
         return new ArrayList<>(mp.values());
     }
