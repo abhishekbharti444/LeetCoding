@@ -1,15 +1,15 @@
 class Solution {
     public int[] twoSum(int[] nums, int target) {
-        HashMap<Integer, Integer> mp = new HashMap<Integer, Integer>();
-
+        // 2. Algorithm Core
         int len = nums.length;
+        Map<Integer, Integer> mp = new HashMap<>();
         for (int i = 0; i < len; ++i) {
-            
             if (mp.containsKey(target - nums[i])) {
-                return new int[]{mp.get(target - nums[i]), i};
+                return new int[]{i, mp.get(target - nums[i])};
             }
             mp.put(nums[i], i);
         }
-        return null;
+
+        return new int[0]; // Placeholder
     }
 }
