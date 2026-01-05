@@ -10,6 +10,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0011-container-with-most-water](https://github.com/abhishekbharti444/LeetCoding/tree/master/0011-container-with-most-water) |
 | [0015-3sum](https://github.com/abhishekbharti444/LeetCoding/tree/master/0015-3sum) |
 | [0033-search-in-rotated-sorted-array](https://github.com/abhishekbharti444/LeetCoding/tree/master/0033-search-in-rotated-sorted-array) |
+| [0042-trapping-rain-water](https://github.com/abhishekbharti444/LeetCoding/tree/master/0042-trapping-rain-water) |
 | [0049-group-anagrams](https://github.com/abhishekbharti444/LeetCoding/tree/master/0049-group-anagrams) |
 | [0053-maximum-subarray](https://github.com/abhishekbharti444/LeetCoding/tree/master/0053-maximum-subarray) |
 | [0054-spiral-matrix](https://github.com/abhishekbharti444/LeetCoding/tree/master/0054-spiral-matrix) |
@@ -63,6 +64,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0005-longest-palindromic-substring](https://github.com/abhishekbharti444/LeetCoding/tree/master/0005-longest-palindromic-substring) |
+| [0042-trapping-rain-water](https://github.com/abhishekbharti444/LeetCoding/tree/master/0042-trapping-rain-water) |
 | [0053-maximum-subarray](https://github.com/abhishekbharti444/LeetCoding/tree/master/0053-maximum-subarray) |
 | [0120-triangle](https://github.com/abhishekbharti444/LeetCoding/tree/master/0120-triangle) |
 | [0152-maximum-product-subarray](https://github.com/abhishekbharti444/LeetCoding/tree/master/0152-maximum-product-subarray) |
@@ -84,6 +86,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Stack
 |  |
 | ------- |
+| [0042-trapping-rain-water](https://github.com/abhishekbharti444/LeetCoding/tree/master/0042-trapping-rain-water) |
 | [3954-maximum-balanced-shipments](https://github.com/abhishekbharti444/LeetCoding/tree/master/3954-maximum-balanced-shipments) |
 ## Greedy
 |  |
@@ -101,6 +104,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Monotonic Stack
 |  |
 | ------- |
+| [0042-trapping-rain-water](https://github.com/abhishekbharti444/LeetCoding/tree/master/0042-trapping-rain-water) |
 | [3954-maximum-balanced-shipments](https://github.com/abhishekbharti444/LeetCoding/tree/master/3954-maximum-balanced-shipments) |
 ## Binary Search
 |  |
@@ -126,6 +130,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0005-longest-palindromic-substring](https://github.com/abhishekbharti444/LeetCoding/tree/master/0005-longest-palindromic-substring) |
 | [0011-container-with-most-water](https://github.com/abhishekbharti444/LeetCoding/tree/master/0011-container-with-most-water) |
 | [0015-3sum](https://github.com/abhishekbharti444/LeetCoding/tree/master/0015-3sum) |
+| [0042-trapping-rain-water](https://github.com/abhishekbharti444/LeetCoding/tree/master/0042-trapping-rain-water) |
 | [2392-successful-pairs-of-spells-and-potions](https://github.com/abhishekbharti444/LeetCoding/tree/master/2392-successful-pairs-of-spells-and-potions) |
 | [2572-append-characters-to-string-to-make-subsequence](https://github.com/abhishekbharti444/LeetCoding/tree/master/2572-append-characters-to-string-to-make-subsequence) |
 | [3965-earliest-finish-time-for-land-and-water-rides-i](https://github.com/abhishekbharti444/LeetCoding/tree/master/3965-earliest-finish-time-for-land-and-water-rides-i) |
