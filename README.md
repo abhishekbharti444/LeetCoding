@@ -9,6 +9,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0001-two-sum](https://github.com/abhishekbharti444/LeetCoding/tree/master/0001-two-sum) |
 | [0011-container-with-most-water](https://github.com/abhishekbharti444/LeetCoding/tree/master/0011-container-with-most-water) |
 | [0015-3sum](https://github.com/abhishekbharti444/LeetCoding/tree/master/0015-3sum) |
+| [0016-3sum-closest](https://github.com/abhishekbharti444/LeetCoding/tree/master/0016-3sum-closest) |
 | [0033-search-in-rotated-sorted-array](https://github.com/abhishekbharti444/LeetCoding/tree/master/0033-search-in-rotated-sorted-array) |
 | [0042-trapping-rain-water](https://github.com/abhishekbharti444/LeetCoding/tree/master/0042-trapping-rain-water) |
 | [0049-group-anagrams](https://github.com/abhishekbharti444/LeetCoding/tree/master/0049-group-anagrams) |
@@ -130,6 +131,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0005-longest-palindromic-substring](https://github.com/abhishekbharti444/LeetCoding/tree/master/0005-longest-palindromic-substring) |
 | [0011-container-with-most-water](https://github.com/abhishekbharti444/LeetCoding/tree/master/0011-container-with-most-water) |
 | [0015-3sum](https://github.com/abhishekbharti444/LeetCoding/tree/master/0015-3sum) |
+| [0016-3sum-closest](https://github.com/abhishekbharti444/LeetCoding/tree/master/0016-3sum-closest) |
 | [0042-trapping-rain-water](https://github.com/abhishekbharti444/LeetCoding/tree/master/0042-trapping-rain-water) |
 | [2392-successful-pairs-of-spells-and-potions](https://github.com/abhishekbharti444/LeetCoding/tree/master/2392-successful-pairs-of-spells-and-potions) |
 | [2572-append-characters-to-string-to-make-subsequence](https://github.com/abhishekbharti444/LeetCoding/tree/master/2572-append-characters-to-string-to-make-subsequence) |
@@ -139,6 +141,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0015-3sum](https://github.com/abhishekbharti444/LeetCoding/tree/master/0015-3sum) |
+| [0016-3sum-closest](https://github.com/abhishekbharti444/LeetCoding/tree/master/0016-3sum-closest) |
 | [0049-group-anagrams](https://github.com/abhishekbharti444/LeetCoding/tree/master/0049-group-anagrams) |
 | [2392-successful-pairs-of-spells-and-potions](https://github.com/abhishekbharti444/LeetCoding/tree/master/2392-successful-pairs-of-spells-and-potions) |
 | [3766-maximum-median-sum-of-subsequences-of-size-3](https://github.com/abhishekbharti444/LeetCoding/tree/master/3766-maximum-median-sum-of-subsequences-of-size-3) |
