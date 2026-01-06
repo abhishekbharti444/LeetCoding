@@ -13,14 +13,18 @@ class Solution {
 
             while (start < end) {
                 int currSum = nums[i] + nums[start] + nums[end];
+                // Check if this is a potential result. 
                 if (Math.abs(currSum - target) < minDiff) {
                     minDiff = Math.abs(currSum - target);
                     res = currSum;
                 }
+
+                // You have a decision to make here
+                // If the current sum is smaller, means the sum should be greater so increase the left pointer
                 if (currSum < target) {
                     start++;
                 }
-                else {
+                else { // Or else if the sum is greater or equal, the sum should be smaller so decrease the right pointer. 
                     end--;
                 }
             }
