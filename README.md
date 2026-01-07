@@ -30,6 +30,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0329-longest-increasing-path-in-a-matrix](https://github.com/abhishekbharti444/LeetCoding/tree/master/0329-longest-increasing-path-in-a-matrix) |
 | [0416-partition-equal-subset-sum](https://github.com/abhishekbharti444/LeetCoding/tree/master/0416-partition-equal-subset-sum) |
 | [0518-coin-change-ii](https://github.com/abhishekbharti444/LeetCoding/tree/master/0518-coin-change-ii) |
+| [0560-subarray-sum-equals-k](https://github.com/abhishekbharti444/LeetCoding/tree/master/0560-subarray-sum-equals-k) |
 | [0794-swim-in-rising-water](https://github.com/abhishekbharti444/LeetCoding/tree/master/0794-swim-in-rising-water) |
 | [1111-minimum-score-triangulation-of-polygon](https://github.com/abhishekbharti444/LeetCoding/tree/master/1111-minimum-score-triangulation-of-polygon) |
 | [1772-create-sorted-array-through-instructions](https://github.com/abhishekbharti444/LeetCoding/tree/master/1772-create-sorted-array-through-instructions) |
@@ -183,6 +184,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0049-group-anagrams](https://github.com/abhishekbharti444/LeetCoding/tree/master/0049-group-anagrams) |
 | [0133-clone-graph](https://github.com/abhishekbharti444/LeetCoding/tree/master/0133-clone-graph) |
 | [0208-implement-trie-prefix-tree](https://github.com/abhishekbharti444/LeetCoding/tree/master/0208-implement-trie-prefix-tree) |
+| [0560-subarray-sum-equals-k](https://github.com/abhishekbharti444/LeetCoding/tree/master/0560-subarray-sum-equals-k) |
 | [0677-map-sum-pairs](https://github.com/abhishekbharti444/LeetCoding/tree/master/0677-map-sum-pairs) |
 | [2429-design-a-food-rating-system](https://github.com/abhishekbharti444/LeetCoding/tree/master/2429-design-a-food-rating-system) |
 | [3863-power-grid-maintenance](https://github.com/abhishekbharti444/LeetCoding/tree/master/3863-power-grid-maintenance) |
@@ -233,6 +235,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Prefix Sum
 |  |
 | ------- |
+| [0560-subarray-sum-equals-k](https://github.com/abhishekbharti444/LeetCoding/tree/master/0560-subarray-sum-equals-k) |
 | [2691-count-vowel-strings-in-ranges](https://github.com/abhishekbharti444/LeetCoding/tree/master/2691-count-vowel-strings-in-ranges) |
 | [3913-partition-array-to-minimize-xor](https://github.com/abhishekbharti444/LeetCoding/tree/master/3913-partition-array-to-minimize-xor) |
 | [3948-maximum-number-of-subsequences-after-one-inserting](https://github.com/abhishekbharti444/LeetCoding/tree/master/3948-maximum-number-of-subsequences-after-one-inserting) |
