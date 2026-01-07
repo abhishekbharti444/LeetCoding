@@ -28,6 +28,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0322-coin-change](https://github.com/abhishekbharti444/LeetCoding/tree/master/0322-coin-change) |
 | [0327-count-of-range-sum](https://github.com/abhishekbharti444/LeetCoding/tree/master/0327-count-of-range-sum) |
 | [0329-longest-increasing-path-in-a-matrix](https://github.com/abhishekbharti444/LeetCoding/tree/master/0329-longest-increasing-path-in-a-matrix) |
+| [0380-insert-delete-getrandom-o1](https://github.com/abhishekbharti444/LeetCoding/tree/master/0380-insert-delete-getrandom-o1) |
 | [0416-partition-equal-subset-sum](https://github.com/abhishekbharti444/LeetCoding/tree/master/0416-partition-equal-subset-sum) |
 | [0518-coin-change-ii](https://github.com/abhishekbharti444/LeetCoding/tree/master/0518-coin-change-ii) |
 | [0560-subarray-sum-equals-k](https://github.com/abhishekbharti444/LeetCoding/tree/master/0560-subarray-sum-equals-k) |
@@ -160,6 +161,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Math
 |  |
 | ------- |
+| [0380-insert-delete-getrandom-o1](https://github.com/abhishekbharti444/LeetCoding/tree/master/0380-insert-delete-getrandom-o1) |
 | [1642-water-bottles](https://github.com/abhishekbharti444/LeetCoding/tree/master/1642-water-bottles) |
 | [2324-find-triangular-sum-of-an-array](https://github.com/abhishekbharti444/LeetCoding/tree/master/2324-find-triangular-sum-of-an-array) |
 | [3336-water-bottles-ii](https://github.com/abhishekbharti444/LeetCoding/tree/master/3336-water-bottles-ii) |
@@ -184,6 +186,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0049-group-anagrams](https://github.com/abhishekbharti444/LeetCoding/tree/master/0049-group-anagrams) |
 | [0133-clone-graph](https://github.com/abhishekbharti444/LeetCoding/tree/master/0133-clone-graph) |
 | [0208-implement-trie-prefix-tree](https://github.com/abhishekbharti444/LeetCoding/tree/master/0208-implement-trie-prefix-tree) |
+| [0380-insert-delete-getrandom-o1](https://github.com/abhishekbharti444/LeetCoding/tree/master/0380-insert-delete-getrandom-o1) |
 | [0560-subarray-sum-equals-k](https://github.com/abhishekbharti444/LeetCoding/tree/master/0560-subarray-sum-equals-k) |
 | [0677-map-sum-pairs](https://github.com/abhishekbharti444/LeetCoding/tree/master/0677-map-sum-pairs) |
 | [2429-design-a-food-rating-system](https://github.com/abhishekbharti444/LeetCoding/tree/master/2429-design-a-food-rating-system) |
@@ -346,6 +349,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0208-implement-trie-prefix-tree](https://github.com/abhishekbharti444/LeetCoding/tree/master/0208-implement-trie-prefix-tree) |
 | [0307-range-sum-query-mutable](https://github.com/abhishekbharti444/LeetCoding/tree/master/0307-range-sum-query-mutable) |
+| [0380-insert-delete-getrandom-o1](https://github.com/abhishekbharti444/LeetCoding/tree/master/0380-insert-delete-getrandom-o1) |
 | [0677-map-sum-pairs](https://github.com/abhishekbharti444/LeetCoding/tree/master/0677-map-sum-pairs) |
 | [2429-design-a-food-rating-system](https://github.com/abhishekbharti444/LeetCoding/tree/master/2429-design-a-food-rating-system) |
 ## Binary Indexed Tree
@@ -411,4 +415,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [2324-find-triangular-sum-of-an-array](https://github.com/abhishekbharti444/LeetCoding/tree/master/2324-find-triangular-sum-of-an-array) |
+## Randomized
+|  |
+| ------- |
+| [0380-insert-delete-getrandom-o1](https://github.com/abhishekbharti444/LeetCoding/tree/master/0380-insert-delete-getrandom-o1) |
 <!---LeetCode Topics End-->
