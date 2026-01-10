@@ -11,6 +11,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0015-3sum](https://github.com/abhishekbharti444/LeetCoding/tree/master/0015-3sum) |
 | [0016-3sum-closest](https://github.com/abhishekbharti444/LeetCoding/tree/master/0016-3sum-closest) |
 | [0033-search-in-rotated-sorted-array](https://github.com/abhishekbharti444/LeetCoding/tree/master/0033-search-in-rotated-sorted-array) |
+| [0041-first-missing-positive](https://github.com/abhishekbharti444/LeetCoding/tree/master/0041-first-missing-positive) |
 | [0042-trapping-rain-water](https://github.com/abhishekbharti444/LeetCoding/tree/master/0042-trapping-rain-water) |
 | [0049-group-anagrams](https://github.com/abhishekbharti444/LeetCoding/tree/master/0049-group-anagrams) |
 | [0053-maximum-subarray](https://github.com/abhishekbharti444/LeetCoding/tree/master/0053-maximum-subarray) |
@@ -183,6 +184,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/abhishekbharti444/LeetCoding/tree/master/0001-two-sum) |
+| [0041-first-missing-positive](https://github.com/abhishekbharti444/LeetCoding/tree/master/0041-first-missing-positive) |
 | [0049-group-anagrams](https://github.com/abhishekbharti444/LeetCoding/tree/master/0049-group-anagrams) |
 | [0133-clone-graph](https://github.com/abhishekbharti444/LeetCoding/tree/master/0133-clone-graph) |
 | [0208-implement-trie-prefix-tree](https://github.com/abhishekbharti444/LeetCoding/tree/master/0208-implement-trie-prefix-tree) |
