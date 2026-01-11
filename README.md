@@ -139,6 +139,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0015-3sum](https://github.com/abhishekbharti444/LeetCoding/tree/master/0015-3sum) |
 | [0016-3sum-closest](https://github.com/abhishekbharti444/LeetCoding/tree/master/0016-3sum-closest) |
 | [0042-trapping-rain-water](https://github.com/abhishekbharti444/LeetCoding/tree/master/0042-trapping-rain-water) |
+| [0567-permutation-in-string](https://github.com/abhishekbharti444/LeetCoding/tree/master/0567-permutation-in-string) |
 | [0680-valid-palindrome-ii](https://github.com/abhishekbharti444/LeetCoding/tree/master/0680-valid-palindrome-ii) |
 | [2392-successful-pairs-of-spells-and-potions](https://github.com/abhishekbharti444/LeetCoding/tree/master/2392-successful-pairs-of-spells-and-potions) |
 | [2572-append-characters-to-string-to-make-subsequence](https://github.com/abhishekbharti444/LeetCoding/tree/master/2572-append-characters-to-string-to-make-subsequence) |
@@ -166,6 +167,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0239-sliding-window-maximum](https://github.com/abhishekbharti444/LeetCoding/tree/master/0239-sliding-window-maximum) |
 | [0424-longest-repeating-character-replacement](https://github.com/abhishekbharti444/LeetCoding/tree/master/0424-longest-repeating-character-replacement) |
 | [0438-find-all-anagrams-in-a-string](https://github.com/abhishekbharti444/LeetCoding/tree/master/0438-find-all-anagrams-in-a-string) |
+| [0567-permutation-in-string](https://github.com/abhishekbharti444/LeetCoding/tree/master/0567-permutation-in-string) |
 | [0904-fruit-into-baskets](https://github.com/abhishekbharti444/LeetCoding/tree/master/0904-fruit-into-baskets) |
 | [3907-count-prime-gap-balanced-subarrays](https://github.com/abhishekbharti444/LeetCoding/tree/master/3907-count-prime-gap-balanced-subarrays) |
 | [3958-minimum-removals-to-balance-array](https://github.com/abhishekbharti444/LeetCoding/tree/master/3958-minimum-removals-to-balance-array) |
@@ -204,6 +206,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0424-longest-repeating-character-replacement](https://github.com/abhishekbharti444/LeetCoding/tree/master/0424-longest-repeating-character-replacement) |
 | [0438-find-all-anagrams-in-a-string](https://github.com/abhishekbharti444/LeetCoding/tree/master/0438-find-all-anagrams-in-a-string) |
 | [0560-subarray-sum-equals-k](https://github.com/abhishekbharti444/LeetCoding/tree/master/0560-subarray-sum-equals-k) |
+| [0567-permutation-in-string](https://github.com/abhishekbharti444/LeetCoding/tree/master/0567-permutation-in-string) |
 | [0677-map-sum-pairs](https://github.com/abhishekbharti444/LeetCoding/tree/master/0677-map-sum-pairs) |
 | [0904-fruit-into-baskets](https://github.com/abhishekbharti444/LeetCoding/tree/master/0904-fruit-into-baskets) |
 | [2429-design-a-food-rating-system](https://github.com/abhishekbharti444/LeetCoding/tree/master/2429-design-a-food-rating-system) |
@@ -245,6 +248,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0212-word-search-ii](https://github.com/abhishekbharti444/LeetCoding/tree/master/0212-word-search-ii) |
 | [0424-longest-repeating-character-replacement](https://github.com/abhishekbharti444/LeetCoding/tree/master/0424-longest-repeating-character-replacement) |
 | [0438-find-all-anagrams-in-a-string](https://github.com/abhishekbharti444/LeetCoding/tree/master/0438-find-all-anagrams-in-a-string) |
+| [0567-permutation-in-string](https://github.com/abhishekbharti444/LeetCoding/tree/master/0567-permutation-in-string) |
 | [0677-map-sum-pairs](https://github.com/abhishekbharti444/LeetCoding/tree/master/0677-map-sum-pairs) |
 | [0680-valid-palindrome-ii](https://github.com/abhishekbharti444/LeetCoding/tree/master/0680-valid-palindrome-ii) |
 | [2429-design-a-food-rating-system](https://github.com/abhishekbharti444/LeetCoding/tree/master/2429-design-a-food-rating-system) |
