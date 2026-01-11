@@ -160,6 +160,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/abhishekbharti444/LeetCoding/tree/master/0003-longest-substring-without-repeating-characters) |
+| [0424-longest-repeating-character-replacement](https://github.com/abhishekbharti444/LeetCoding/tree/master/0424-longest-repeating-character-replacement) |
 | [0438-find-all-anagrams-in-a-string](https://github.com/abhishekbharti444/LeetCoding/tree/master/0438-find-all-anagrams-in-a-string) |
 | [3907-count-prime-gap-balanced-subarrays](https://github.com/abhishekbharti444/LeetCoding/tree/master/3907-count-prime-gap-balanced-subarrays) |
 | [3958-minimum-removals-to-balance-array](https://github.com/abhishekbharti444/LeetCoding/tree/master/3958-minimum-removals-to-balance-array) |
@@ -194,6 +195,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0133-clone-graph](https://github.com/abhishekbharti444/LeetCoding/tree/master/0133-clone-graph) |
 | [0208-implement-trie-prefix-tree](https://github.com/abhishekbharti444/LeetCoding/tree/master/0208-implement-trie-prefix-tree) |
 | [0380-insert-delete-getrandom-o1](https://github.com/abhishekbharti444/LeetCoding/tree/master/0380-insert-delete-getrandom-o1) |
+| [0424-longest-repeating-character-replacement](https://github.com/abhishekbharti444/LeetCoding/tree/master/0424-longest-repeating-character-replacement) |
 | [0438-find-all-anagrams-in-a-string](https://github.com/abhishekbharti444/LeetCoding/tree/master/0438-find-all-anagrams-in-a-string) |
 | [0560-subarray-sum-equals-k](https://github.com/abhishekbharti444/LeetCoding/tree/master/0560-subarray-sum-equals-k) |
 | [0677-map-sum-pairs](https://github.com/abhishekbharti444/LeetCoding/tree/master/0677-map-sum-pairs) |
@@ -233,6 +235,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0079-word-search](https://github.com/abhishekbharti444/LeetCoding/tree/master/0079-word-search) |
 | [0208-implement-trie-prefix-tree](https://github.com/abhishekbharti444/LeetCoding/tree/master/0208-implement-trie-prefix-tree) |
 | [0212-word-search-ii](https://github.com/abhishekbharti444/LeetCoding/tree/master/0212-word-search-ii) |
+| [0424-longest-repeating-character-replacement](https://github.com/abhishekbharti444/LeetCoding/tree/master/0424-longest-repeating-character-replacement) |
 | [0438-find-all-anagrams-in-a-string](https://github.com/abhishekbharti444/LeetCoding/tree/master/0438-find-all-anagrams-in-a-string) |
 | [0677-map-sum-pairs](https://github.com/abhishekbharti444/LeetCoding/tree/master/0677-map-sum-pairs) |
 | [0680-valid-palindrome-ii](https://github.com/abhishekbharti444/LeetCoding/tree/master/0680-valid-palindrome-ii) |
