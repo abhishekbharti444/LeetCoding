@@ -22,6 +22,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0152-maximum-product-subarray](https://github.com/abhishekbharti444/LeetCoding/tree/master/0152-maximum-product-subarray) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/abhishekbharti444/LeetCoding/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0212-word-search-ii](https://github.com/abhishekbharti444/LeetCoding/tree/master/0212-word-search-ii) |
+| [0239-sliding-window-maximum](https://github.com/abhishekbharti444/LeetCoding/tree/master/0239-sliding-window-maximum) |
 | [0300-longest-increasing-subsequence](https://github.com/abhishekbharti444/LeetCoding/tree/master/0300-longest-increasing-subsequence) |
 | [0307-range-sum-query-mutable](https://github.com/abhishekbharti444/LeetCoding/tree/master/0307-range-sum-query-mutable) |
 | [0312-burst-balloons](https://github.com/abhishekbharti444/LeetCoding/tree/master/0312-burst-balloons) |
@@ -161,6 +162,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/abhishekbharti444/LeetCoding/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0076-minimum-window-substring](https://github.com/abhishekbharti444/LeetCoding/tree/master/0076-minimum-window-substring) |
+| [0239-sliding-window-maximum](https://github.com/abhishekbharti444/LeetCoding/tree/master/0239-sliding-window-maximum) |
 | [0424-longest-repeating-character-replacement](https://github.com/abhishekbharti444/LeetCoding/tree/master/0424-longest-repeating-character-replacement) |
 | [0438-find-all-anagrams-in-a-string](https://github.com/abhishekbharti444/LeetCoding/tree/master/0438-find-all-anagrams-in-a-string) |
 | [3907-count-prime-gap-balanced-subarrays](https://github.com/abhishekbharti444/LeetCoding/tree/master/3907-count-prime-gap-balanced-subarrays) |
@@ -328,6 +330,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Heap (Priority Queue)
 |  |
 | ------- |
+| [0239-sliding-window-maximum](https://github.com/abhishekbharti444/LeetCoding/tree/master/0239-sliding-window-maximum) |
 | [0794-swim-in-rising-water](https://github.com/abhishekbharti444/LeetCoding/tree/master/0794-swim-in-rising-water) |
 | [2429-design-a-food-rating-system](https://github.com/abhishekbharti444/LeetCoding/tree/master/2429-design-a-food-rating-system) |
 | [3863-power-grid-maintenance](https://github.com/abhishekbharti444/LeetCoding/tree/master/3863-power-grid-maintenance) |
@@ -413,10 +416,12 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Queue
 |  |
 | ------- |
+| [0239-sliding-window-maximum](https://github.com/abhishekbharti444/LeetCoding/tree/master/0239-sliding-window-maximum) |
 | [3907-count-prime-gap-balanced-subarrays](https://github.com/abhishekbharti444/LeetCoding/tree/master/3907-count-prime-gap-balanced-subarrays) |
 ## Monotonic Queue
 |  |
 | ------- |
+| [0239-sliding-window-maximum](https://github.com/abhishekbharti444/LeetCoding/tree/master/0239-sliding-window-maximum) |
 | [3907-count-prime-gap-balanced-subarrays](https://github.com/abhishekbharti444/LeetCoding/tree/master/3907-count-prime-gap-balanced-subarrays) |
 ## Backtracking
 |  |
