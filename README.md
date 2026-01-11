@@ -35,6 +35,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0518-coin-change-ii](https://github.com/abhishekbharti444/LeetCoding/tree/master/0518-coin-change-ii) |
 | [0560-subarray-sum-equals-k](https://github.com/abhishekbharti444/LeetCoding/tree/master/0560-subarray-sum-equals-k) |
 | [0794-swim-in-rising-water](https://github.com/abhishekbharti444/LeetCoding/tree/master/0794-swim-in-rising-water) |
+| [0904-fruit-into-baskets](https://github.com/abhishekbharti444/LeetCoding/tree/master/0904-fruit-into-baskets) |
 | [1111-minimum-score-triangulation-of-polygon](https://github.com/abhishekbharti444/LeetCoding/tree/master/1111-minimum-score-triangulation-of-polygon) |
 | [1772-create-sorted-array-through-instructions](https://github.com/abhishekbharti444/LeetCoding/tree/master/1772-create-sorted-array-through-instructions) |
 | [2324-find-triangular-sum-of-an-array](https://github.com/abhishekbharti444/LeetCoding/tree/master/2324-find-triangular-sum-of-an-array) |
@@ -165,6 +166,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0239-sliding-window-maximum](https://github.com/abhishekbharti444/LeetCoding/tree/master/0239-sliding-window-maximum) |
 | [0424-longest-repeating-character-replacement](https://github.com/abhishekbharti444/LeetCoding/tree/master/0424-longest-repeating-character-replacement) |
 | [0438-find-all-anagrams-in-a-string](https://github.com/abhishekbharti444/LeetCoding/tree/master/0438-find-all-anagrams-in-a-string) |
+| [0904-fruit-into-baskets](https://github.com/abhishekbharti444/LeetCoding/tree/master/0904-fruit-into-baskets) |
 | [3907-count-prime-gap-balanced-subarrays](https://github.com/abhishekbharti444/LeetCoding/tree/master/3907-count-prime-gap-balanced-subarrays) |
 | [3958-minimum-removals-to-balance-array](https://github.com/abhishekbharti444/LeetCoding/tree/master/3958-minimum-removals-to-balance-array) |
 ## Math
@@ -203,6 +205,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0438-find-all-anagrams-in-a-string](https://github.com/abhishekbharti444/LeetCoding/tree/master/0438-find-all-anagrams-in-a-string) |
 | [0560-subarray-sum-equals-k](https://github.com/abhishekbharti444/LeetCoding/tree/master/0560-subarray-sum-equals-k) |
 | [0677-map-sum-pairs](https://github.com/abhishekbharti444/LeetCoding/tree/master/0677-map-sum-pairs) |
+| [0904-fruit-into-baskets](https://github.com/abhishekbharti444/LeetCoding/tree/master/0904-fruit-into-baskets) |
 | [2429-design-a-food-rating-system](https://github.com/abhishekbharti444/LeetCoding/tree/master/2429-design-a-food-rating-system) |
 | [3863-power-grid-maintenance](https://github.com/abhishekbharti444/LeetCoding/tree/master/3863-power-grid-maintenance) |
 | [3868-find-maximum-area-of-a-triangle](https://github.com/abhishekbharti444/LeetCoding/tree/master/3868-find-maximum-area-of-a-triangle) |
