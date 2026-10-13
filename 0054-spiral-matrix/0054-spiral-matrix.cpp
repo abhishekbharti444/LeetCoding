@@ -3,30 +3,21 @@ public:
     vector<int> spiralOrder(vector<vector<int>>& mat) {
         int m = mat.size();
         int n = mat[0].size();
-        int r = 0;
-        int c = 0;
-        int x = m - 1;
-        int y = n - 1;
         vector<int> res;
-        while (r <= x && c <= y) {
-            int i = r;
-            int j = c;
-            for (j = c; j <= y; j++) {
-                res.push_back(mat[i][j]);
-            }
-            j = y;
-            for (i = r+1; i <= x; ++i) res.push_back(mat[i][j]);
-            i = x;
-            if (r < x)
-                for (j = y-1; j >= c; j--) res.push_back(mat[i][j]);
-            j = c;
-            if (c < y)
-                for (i = x-1; i > r; --i) res.push_back(mat[i][j]);
-
-            r++;
-            c++;
-            x--;
-            y--;
+        int top = 0;
+        int bottom = m - 1;
+        int left = 0;
+        int right = n - 1;
+        while (top <= bottom && left <= right) {
+            for (int j = left; j <= right; ++j) res.push_back(mat[top][j]);
+            top++;
+            for (int i = top; i <= bottom; ++i) res.push_back(mat[i][right]);
+            right--;
+            if (top > bottom || left > right) break;
+            for (int j = right; j >= left; --j) res.push_back(mat[bottom][j]);
+            bottom--;
+            for (int i = bottom; i >= top; --i) res.push_back(mat[i][left]);
+            left++;
         }
         return res;
     }
